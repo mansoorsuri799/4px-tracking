@@ -51,7 +51,7 @@ export default function Header() {
     <header
       className={`sticky top-0 z-40 transition-all duration-300 ${
         transparent
-          ? "border-b border-transparent bg-transparent"
+          ? "border-0 bg-transparent shadow-none"
           : "border-b border-slate-200/80 bg-white/95 shadow-sm backdrop-blur-md"
       }`}
     >

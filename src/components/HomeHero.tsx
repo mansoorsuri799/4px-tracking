@@ -7,7 +7,7 @@ import { BRAND, IMAGES } from "@/lib/siteConfig";
 
 export default function HomeHero() {
   return (
-    <section className="relative -mt-16 min-h-[min(92vh,820px)] overflow-hidden pt-16 text-white">
+    <section className="relative -mt-16 min-h-[min(92vh,820px)] overflow-hidden bg-black pt-16 text-white">
       <HoneycombBackground />
 
       <div className="relative z-10 mx-auto flex min-h-[min(92vh,820px)] max-w-4xl flex-col items-center justify-center px-4 pb-16 pt-14 text-center md:px-6 md:pt-20">

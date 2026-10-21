@@ -3,7 +3,7 @@ import { BOX_PATTERN } from "@/components/BoxPattern";
 /** Shein-style black hero backdrop with a subtle box grid — no motion. */
 export default function HoneycombBackground() {
   return (
-    <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden>
+    <div className="pointer-events-none absolute inset-x-0 -top-px bottom-0 overflow-hidden bg-black" aria-hidden>
       <div className="absolute inset-0 hero-gradient" />
 
       <div
