@@ -1,6 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ARTICLES, BRAND, IMAGES, ROUTES } from "@/lib/siteConfig";
+import { ARTICLES, BRAND, IMAGES, ROUTES, SOCIAL } from "@/lib/siteConfig";
+
+const socialLinks = [
+  { href: SOCIAL.facebook, label: "Facebook" },
+  { href: SOCIAL.instagram, label: "Instagram" },
+  { href: SOCIAL.twitter, label: "X" },
+  { href: SOCIAL.youtube, label: "YouTube" },
+];
 
 export default function Footer() {
   return (
@@ -27,6 +34,19 @@ export default function Footer() {
             <p className="mt-3 text-xs text-neutral-500">
               Not affiliated with SHEIN or its parent companies.
             </p>
+            <div className="mt-5 flex flex-wrap gap-2">
+              {socialLinks.map((s) => (
+                <a
+                  key={s.label}
+                  href={s.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-lg border border-white/15 px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-neutral-300 transition-colors hover:border-white/40 hover:text-white"
+                >
+                  {s.label}
+                </a>
+              ))}
+            </div>
           </div>
 
           <div>

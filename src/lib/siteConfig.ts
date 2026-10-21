@@ -155,8 +155,8 @@ export const HOME_FAQS = [
 ] as const;
 
 export const SOCIAL = {
-  facebook: "https://www.facebook.com/",
-  twitter: "https://x.com/",
-  instagram: "https://www.instagram.com/",
-  youtube: "https://www.youtube.com/",
+  facebook: "https://www.facebook.com/SHEINOFFICIAL/",
+  twitter: "https://x.com/SHEIN_Official",
+  instagram: "https://www.instagram.com/sheinofficial/",
+  youtube: "https://www.youtube.com/channel/UCyLC0byWRwTw16Gc74SPp9w",
 } as const;
