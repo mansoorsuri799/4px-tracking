@@ -1,20 +1,20 @@
-/** Central brand / domain config for SpeedPak Tracking */
-export const SITE_ORIGIN = "https://speedpaktracking.com";
+/** Central brand / domain config for 4PX Tracking */
+export const SITE_ORIGIN = "https://4pxtracking.net";
 
 export const BRAND = {
-  name: "SpeedPak Tracking",
-  shortName: "SpeedPak Tracking",
-  keyword: "speedpak tracking",
-  domain: "speedpaktracking.com",
-  email: "contact@speedpaktracking.com",
-  twitter: "@speedpaktracking",
-  tagline: "Track SpeedPAK Packages, Orders & Shipments",
+  name: "4PX Tracking",
+  shortName: "4PX Tracking",
+  keyword: "4px tracking",
+  domain: "4pxtracking.net",
+  email: "contact@4pxtracking.net",
+  twitter: "@4pxtracking",
+  tagline: "Track 4PX Packages, Orders & Shipments",
   description:
-    "Track SpeedPAK packages and eBay cross-border shipments in one place. Enter your EE/ES tracking number for live status, last-mile updates, and clear milestone explanations.",
+    "Track 4PX Express packages and cross-border shipments in one place. Enter your 4PX tracking number for live status, customs milestones, and last-mile updates.",
 } as const;
 
-/** Official Orange Connex / SpeedPAK tracking (optional outbound link) */
-export const OFFICIAL_URL = "https://orangeconnex.cn/tracking";
+/** Official 4PX Tracking website */
+export const OFFICIAL_URL = "https://4pxtracking.net/";
 
 export const ROUTES = {
   home: "/",
@@ -26,101 +26,101 @@ export const ROUTES = {
 } as const;
 
 export const IMAGES = {
-  logo: "/speedpak-tracking.webp",
-  favicon: "/speedpak-tracking.webp",
-  brandLogo: "/speedpak-tracking.webp",
-  banner: "/speedpak-tracking-tool.webp",
+  logo: "/4px-tracking.webp",
+  favicon: "/4px-tracking.webp",
+  brandLogo: "/4px-tracking.webp",
+  banner: "/4px-tracking-website.webp",
   og: "/feature/og-image-1200x630.png",
   ogSquare: "/feature/og-square-1200x1200.png",
   twitter: "/feature/twitter-card-1200x600.png",
-  website: "/speedpak-tracking-tool.webp",
-  tool: "/speedpak-tracking-tool.webp",
-  container: "/speedpak-tracking-containers.webp",
-  parcel: "/speedpak-tracking-orders.webp",
-  shipment: "/speedpak-tracking-shipment.webp",
-  orders: "/speedpak-tracking-orders.webp",
-  heroAlt: "/speedpak-tracking-shipment.webp",
+  website: "/4px-tracking-website.webp",
+  tool: "/4px-tracking-website.webp",
+  container: "/4px-tracking-shipments.webp",
+  parcel: "/4px-tracking-parcel.webp",
+  shipment: "/4px-tracking-shipments.webp",
+  orders: "/4px-tracking-orders.webp",
+  heroAlt: "/4px-tracking-parcel.webp",
 } as const;
 
 export const ARTICLES = [
   {
-    slug: "how-to-track-speedpak-package",
-    title: "How to Track a SpeedPAK Package: Step-by-Step Guide",
-    metaTitle: "How to Track a SpeedPAK Package | Step-by-Step Guide",
+    slug: "how-to-track-4px-package",
+    title: "How to Track a 4PX Package: Step-by-Step Guide",
+    metaTitle: "How to Track a 4PX Package | Step-by-Step Guide",
     description:
-      "Learn how to track a SpeedPAK package with your EE or ES tracking number — on speedpaktracking.com, Orange Connex, and last-mile carriers.",
+      "Learn how to track a 4PX package with your tracking number on the official 4pxtracking.net tracker and last-mile carriers after import.",
     date: "2026-10-22",
-    image: "/blog/how-to-track-speedpak-package.webp",
+    image: "/blog/how-to-track-4px-package.webp",
   },
   {
-    slug: "speedpak-tracking-number",
-    title: "SpeedPAK Tracking Number: EE, ES Formats Explained",
-    metaTitle: "SpeedPAK Tracking Number Format (EE / ES) Explained",
+    slug: "4px-tracking-number",
+    title: "4PX Tracking Number: Formats and Where to Find Yours",
+    metaTitle: "4PX Tracking Number Format Explained",
     description:
-      "What a SpeedPAK tracking number looks like, where to find it on eBay, and how EE vs ES prefixes relate to Standard and Economy service.",
+      "What a 4PX tracking number looks like, where sellers and marketplaces show it, and how to copy it correctly for a successful lookup.",
     date: "2026-10-20",
-    image: "/blog/speedpak-tracking-number.webp",
+    image: "/blog/4px-tracking-number.webp",
   },
   {
-    slug: "speedpak-tracking-not-updating",
-    title: "SpeedPAK Tracking Not Updating? Causes and What to Do",
-    metaTitle: "SpeedPAK Tracking Not Updating? Causes & Fixes",
+    slug: "4px-tracking-not-updating",
+    title: "4PX Tracking Not Updating? Causes and What to Do",
+    metaTitle: "4PX Tracking Not Updating? Causes & Fixes",
     description:
-      "SpeedPAK tracking stuck for days? Learn why cross-border scans pause, how long to wait, and proven ways to check your package correctly.",
+      "4PX tracking stuck for days? Learn why cross-border scans pause, how long to wait, and practical ways to check your package correctly.",
     date: "2026-10-18",
-    image: "/blog/speedpak-tracking-not-updating.webp",
+    image: "/blog/4px-tracking-not-updating.webp",
   },
   {
-    slug: "speedpak-4px-tracking",
-    title: "SpeedPAK and 4PX Tracking: How They Connect",
-    metaTitle: "SpeedPAK & 4PX Tracking — How the Networks Connect",
+    slug: "4px-express-tracking",
+    title: "4PX Express Tracking: Statuses and Delivery Times",
+    metaTitle: "4PX Express Tracking — Statuses & Delivery Times",
     description:
-      "Understand how SpeedPAK, Orange Connex, and 4PX relate when tracking eBay packages from China, plus which number to use at each stage.",
+      "Understand common 4PX Express tracking statuses, typical delivery windows, and what each milestone means on your shipment timeline.",
     date: "2026-10-16",
-    image: "/blog/speedpak-4px-tracking.webp",
+    image: "/blog/4px-express-tracking.webp",
   },
 ] as const;
 
 export const HOME_FAQS = [
   {
-    q: "How do I track a SpeedPAK package?",
-    a: "Paste your SpeedPAK tracking number (often starting with EE or ES) into the tracker on speedpaktracking.com. You can also check Orange Connex shipment tracking or the last-mile carrier once a local tracking number appears.",
+    q: "How do I track a 4PX package?",
+    a: "Paste your 4PX tracking number into the official tracker on 4pxtracking.net. After import, you can also follow a last-mile carrier once a local tracking number appears.",
   },
   {
-    q: "What does a SpeedPAK tracking number look like?",
-    a: "Most SpeedPAK numbers are long alphanumeric codes beginning with EE or ES (Standard vs Economy style prefixes). Some eBay SpeedPAK labels may also use EX or EM prefixes depending on the service uploaded by the seller.",
+    q: "What does a 4PX tracking number look like?",
+    a: "4PX numbers are usually long alphanumeric codes printed on the shipping label or listed in your order confirmation. Formats vary by service product, so always copy the full string from the seller or marketplace — never use the order ID alone.",
   },
   {
-    q: "Where do I find my SpeedPAK tracking number?",
-    a: "Open your eBay order details or the shipping confirmation email from the seller. The tracking number is listed under shipping / tracking. Copy it exactly — do not use the order number or invoice ID.",
+    q: "Where do I find my 4PX tracking number?",
+    a: "Open your order details or shipping confirmation email from the seller or marketplace. The tracking number is listed under shipping / tracking. Copy it exactly — do not use the invoice ID or payment reference.",
   },
   {
-    q: "How long does SpeedPAK shipping take?",
-    a: "Standard SpeedPAK often lands in roughly 8–15 business days to many destinations; Economy can take longer. Customs, peak seasons, and last-mile networks can extend that window.",
+    q: "How long does 4PX shipping take?",
+    a: "Many cross-border 4PX Express shipments land in roughly 1–3 weeks depending on origin, destination, service level, and customs. Peak seasons and import exams can extend that window. Reddit and buyer forums often note 3–4 weeks for some routes — treat estimates as planning ranges, not guarantees.",
   },
   {
-    q: "Why isn’t my SpeedPAK tracking number working yet?",
-    a: "Tracking usually activates after the seller hands the parcel to SpeedPAK / Orange Connex and the first warehouse or export scan posts. Typos, wrong prefix, or a number that has not been activated yet all return “not found.”",
+    q: "Why isn’t my 4PX tracking number working yet?",
+    a: "Tracking usually activates after the seller hands the parcel to 4PX and the first warehouse or export scan posts. Typos, truncated codes, or a number that has not been activated yet all return “not found.”",
   },
   {
-    q: "Why does SpeedPAK tracking stop updating for several days?",
-    a: "Quiet gaps are common during international transit, export/import customs, and handoff to a local postal or courier network. The package can still be moving even when new scans are sparse.",
+    q: "Why does 4PX tracking stop updating for several days?",
+    a: "Quiet gaps are common during international transit, export/import customs, and handoff to a local postal or courier network. The package can still be moving even when new scans are sparse — a frequent topic in buyer communities.",
   },
   {
-    q: "Who delivers SpeedPAK packages in the US?",
-    a: "After international transit and import processing, last-mile delivery is often handled by USPS or a regional courier (sometimes UniUni or similar partners). Your SpeedPAK timeline may show a new local tracking number at that stage.",
+    q: "Who delivers 4PX packages in the US?",
+    a: "After international transit and import processing, last-mile delivery is often handled by USPS or a regional courier partner. Your 4PX timeline may show a new local tracking number at that stage.",
   },
   {
-    q: "Is SpeedPAK the same as 4PX?",
-    a: "They are related cross-border logistics brands that often appear on the same China-export journeys, but they are not identical labels. Use the tracking number printed on your label; our [SpeedPAK and 4PX guide](/speedpak-4px-tracking) explains how the networks connect.",
+    q: "Is 4PX the same as SpeedPAK?",
+    a: "They are related China-export logistics brands that sometimes appear on overlapping journeys, but they are not identical services. Use the tracking number printed on your label. Our guides focus on 4PX Express tracking.",
   },
   {
-    q: "Can I track SpeedPAK on USPS Informed Delivery?",
-    a: "Sometimes a USPS number appears after import; other times you only see SpeedPAK / Orange Connex events until delivery. If a USPS barcode is applied, Informed Delivery may show the local leg.",
+    q: "Can I track 4PX on USPS Informed Delivery?",
+    a: "Sometimes a USPS number appears after import; other times you only see 4PX events until delivery. If a USPS barcode is applied, Informed Delivery may show the local leg.",
   },
   {
-    q: "Is speedpaktracking.com affiliated with SpeedPAK or eBay?",
-    a: "No. SpeedPakTracking.com is an independent multi-carrier tracking site. We are not affiliated with Orange Connex, SpeedPAK, 4PX, or eBay. For claims and seller disputes, use eBay Buyer Protection or the seller’s official support channels.",
+    q: "Is 4pxtracking.net the official 4PX Tracking website?",
+    a: "Yes. 4PXTracking.net is the official 4PX Tracking website for live package lookups, status guides, and tracking help. For order claims or seller disputes, use your marketplace buyer protection or the seller’s support channels.",
   },
 ] as const;
 

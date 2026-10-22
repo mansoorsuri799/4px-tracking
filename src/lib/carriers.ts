@@ -8,10 +8,10 @@ export type Carrier = {
 
 export const CARRIERS = carriersData as Carrier[];
 
-/** Shown first in the picker — SpeedPAK-related & popular parcel carriers */
+/** Shown first in the picker — 4PX-related & popular parcel carriers */
 export const POPULAR_CARRIER_CODES = [
-  "speedpak",
   "4px",
+  "speedpak",
   "usps",
   "yun-express",
   "cne-express",
@@ -53,7 +53,7 @@ const LOGO_ALIAS: Record<string, string> = {
   "amazon-india": "amazon",
 };
 
-const AVATAR_COLORS = ["#FD6B26", "#E55A18", "#C44A1A", "#9A3A14", "#211F1F", "#6B6767"];
+const AVATAR_COLORS = ["#FD6B26", "#F0A838", "#2D3091", "#23267A", "#5B5FC0", "#1E2268"];
 
 function hashHue(s: string): number {
   let h = 0;

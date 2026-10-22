@@ -16,7 +16,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "speedpaktracking.com",
+        hostname: "4pxtracking.net",
       },
     ],
     formats: ["image/webp"],
@@ -31,56 +31,77 @@ const nextConfig = {
       { source: "/privacy", destination: "/privacy-policy", permanent: true },
       { source: "/contact", destination: "/contact-us", permanent: true },
       { source: "/blog", destination: "/category/blog", permanent: true },
-      // Legacy Maersk article URLs → SpeedPAK SERP guides
+      // Legacy SpeedPAK article URLs → 4PX SERP guides
+      {
+        source: "/how-to-track-speedpak-package",
+        destination: "/how-to-track-4px-package",
+        permanent: true,
+      },
+      {
+        source: "/speedpak-tracking-number",
+        destination: "/4px-tracking-number",
+        permanent: true,
+      },
+      {
+        source: "/speedpak-tracking-not-updating",
+        destination: "/4px-tracking-not-updating",
+        permanent: true,
+      },
+      {
+        source: "/speedpak-4px-tracking",
+        destination: "/4px-express-tracking",
+        permanent: true,
+      },
+      // Legacy Maersk article URLs → 4PX guides
       {
         source: "/how-to-track-maersk-shipment",
-        destination: "/how-to-track-speedpak-package",
+        destination: "/how-to-track-4px-package",
         permanent: true,
       },
       {
         source: "/maersk-container-tracking",
-        destination: "/speedpak-tracking-number",
+        destination: "/4px-tracking-number",
         permanent: true,
       },
       {
         source: "/maersk-bill-of-lading-tracking",
-        destination: "/speedpak-4px-tracking",
+        destination: "/4px-express-tracking",
         permanent: true,
       },
       {
         source: "/maersk-tracking-not-updating",
-        destination: "/speedpak-tracking-not-updating",
+        destination: "/4px-tracking-not-updating",
         permanent: true,
       },
-      // Legacy Shein article URLs → closest SpeedPAK guides
+      // Legacy Shein article URLs → closest 4PX guides
       {
         source: "/how-to-track-your-shein-order",
-        destination: "/how-to-track-speedpak-package",
+        destination: "/how-to-track-4px-package",
         permanent: true,
       },
       {
         source: "/how-long-does-shein-take",
-        destination: "/how-to-track-speedpak-package",
+        destination: "/4px-express-tracking",
         permanent: true,
       },
       {
         source: "/shein-tracking-statuses-explained",
-        destination: "/speedpak-tracking-number",
+        destination: "/4px-express-tracking",
         permanent: true,
       },
       {
         source: "/shein-tracking-not-updating",
-        destination: "/speedpak-tracking-not-updating",
+        destination: "/4px-tracking-not-updating",
         permanent: true,
       },
       {
         source: "/shein-delivered-but-not-received",
-        destination: "/speedpak-tracking-not-updating",
+        destination: "/4px-tracking-not-updating",
         permanent: true,
       },
       {
         source: "/shein-customs-clearance",
-        destination: "/speedpak-4px-tracking",
+        destination: "/4px-express-tracking",
         permanent: true,
       },
     ];
@@ -117,7 +138,7 @@ const nextConfig = {
               "style-src 'self' 'unsafe-inline'",
               "img-src 'self' data: https:",
               "font-src 'self' data:",
-              "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://pagead2.googlesyndication.com https://api.17track.net https://api.trackingmore.com https://speedpaktracking.com https://global.cainiao.com",
+              "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://pagead2.googlesyndication.com https://api.17track.net https://api.trackingmore.com https://4pxtracking.net https://global.cainiao.com",
               "frame-src 'self' https://googleads.g.doubleclick.net https://tpc.googlesyndication.com",
               "frame-ancestors 'none'",
               "base-uri 'self'",

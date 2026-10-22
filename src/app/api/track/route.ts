@@ -65,7 +65,7 @@ async function trackViaCainiao(
     headers: {
       Accept: "application/json, text/plain, */*",
       "User-Agent":
-        "Mozilla/5.0 (compatible; SpeedPakTracking/1.0; +https://speedpaktracking.com)",
+        "Mozilla/5.0 (compatible; 4PXTracking/1.0; +https://4pxtracking.net)",
       Referer: "https://global.cainiao.com/",
     },
     cache: "no-store",

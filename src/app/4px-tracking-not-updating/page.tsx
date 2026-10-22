@@ -1,7 +1,7 @@
 import ArticlePage, { articleMetadata } from "@/components/ArticlePage";
 import { ARTICLES } from "@/lib/siteConfig";
 
-const article = ARTICLES.find((a) => a.slug === "speedpak-tracking-number")!;
+const article = ARTICLES.find((a) => a.slug === "4px-tracking-not-updating")!;
 
 export const metadata = articleMetadata(article);
 

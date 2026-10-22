@@ -3,24 +3,25 @@
 @tailwind utilities;
 
 :root {
-  /* From speedpak-tracking.webp — orange brand mark + logo black */
+  /* From 4px-tracking.webp — royal navy + orange/gold accents */
   --brand: #fd6b26;
-  --navy-start: #9a3a14;
-  --navy-end: #fd6b26;
+  --logo-navy: #2d3091;
+  --navy-start: #0f1238;
+  --navy-end: #1a1d5c;
   --coral: #fd6b26;
-  --ink: #211f1f;
-  --paper: #fff8f4;
-  --foreground-rgb: 33, 31, 31;
-  --background-start-rgb: 255, 248, 244;
+  --ink: #1a1d3a;
+  --paper: #f5f6fb;
+  --foreground-rgb: 26, 29, 58;
+  --background-start-rgb: 245, 246, 251;
   --background-end-rgb: 255, 255, 255;
-  --feature-border: #ffc9a8;
-  --feature-title: #9a3a14;
+  --feature-border: #c5c7eb;
+  --feature-title: #2d3091;
   --feature-icon: #fd6b26;
 }
 
 html {
   scroll-behavior: smooth;
-  background-color: #211f1f;
+  background-color: #12153f;
 }
 
 body {
@@ -43,16 +44,18 @@ footer {
 
 .hero-gradient {
   background:
-    radial-gradient(ellipse 70% 55% at 18% 18%, rgba(253, 107, 38, 0.22), transparent 55%),
-    radial-gradient(ellipse 60% 45% at 88% 12%, rgba(253, 107, 38, 0.12), transparent 50%),
-    linear-gradient(160deg, #211f1f 0%, #1a1818 42%, #2a2828 78%, #333030 100%);
+    radial-gradient(ellipse 70% 55% at 18% 18%, rgba(253, 107, 38, 0.2), transparent 55%),
+    radial-gradient(ellipse 55% 45% at 88% 14%, rgba(240, 168, 56, 0.12), transparent 50%),
+    radial-gradient(ellipse 50% 40% at 50% 80%, rgba(15, 18, 56, 0.7), transparent 60%),
+    linear-gradient(160deg, #1a1d5c 0%, #151848 42%, #0f1238 78%, #12153f 100%);
 }
 
-/* Page banners — logo charcoal with orange glow */
+/* Page banners — darker logo navy with orange/gold glow */
 .page-banner {
   background:
-    radial-gradient(ellipse 65% 50% at 85% 20%, rgba(253, 107, 38, 0.18), transparent 55%),
-    linear-gradient(145deg, #211f1f 0%, #1a1818 45%, #2c2a2a 100%);
+    radial-gradient(ellipse 65% 50% at 85% 20%, rgba(253, 107, 38, 0.16), transparent 55%),
+    radial-gradient(ellipse 40% 35% at 10% 80%, rgba(240, 168, 56, 0.08), transparent 50%),
+    linear-gradient(145deg, #1a1d5c 0%, #151848 45%, #0f1238 100%);
 }
 
 .section-kicker {

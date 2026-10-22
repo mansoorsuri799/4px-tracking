@@ -24,7 +24,7 @@ export default function HomeBody({
               Why Choose Us?
             </h2>
             <p className="mt-2 max-w-2xl text-ink-mute">
-              Built for SpeedPAK packages — clear milestones, multi-carrier support, and a simple tracking flow.
+              Built for 4PX packages — clear milestones, multi-carrier support, and a simple tracking flow.
             </p>
           </FadeIn>
           <div className="mt-10">
@@ -33,15 +33,15 @@ export default function HomeBody({
         </div>
       </section>
 
-      <section className="overflow-hidden border-y border-[#FD6B26]/15 bg-gradient-to-br from-[#211F1F] via-[#1a1818] to-[#9A3A14] py-14 text-white md:py-16">
+      <section className="overflow-hidden border-y border-[#FD6B26]/15 bg-gradient-to-br from-[#151848] via-[#1A1D5C] to-[#0F1238] py-14 text-white md:py-16">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 md:grid-cols-2 md:px-6">
           <FadeIn>
             <p className="section-kicker !text-white/60">Built for cross-border visibility</p>
             <h2 className="font-display text-2xl font-bold tracking-tight md:text-3xl">
-              One tracker for every SpeedPAK number
+              One tracker for every 4PX number
             </h2>
             <p className="mt-3 max-w-md text-white/75">
-              Paste your EE or ES tracking number on {BRAND.domain} and follow warehouse,
+              Paste your 4PX tracking number on {BRAND.domain} and follow warehouse,
               customs, and last-mile milestones without jumping between portals.
             </p>
           </FadeIn>
@@ -95,10 +95,10 @@ export default function HomeBody({
           <FadeIn>
             <p className="section-kicker">Ready to check your package?</p>
             <h2 className="font-display text-2xl font-bold text-ink md:text-3xl">
-              Track your SpeedPAK shipment now
+              Track your 4PX shipment now
             </h2>
             <p className="mx-auto mt-2 max-w-xl text-ink-mute">
-              Paste your SpeedPAK tracking number in the box at the top of this page for live updates.
+              Paste your 4PX tracking number in the box at the top of this page for live updates.
             </p>
             <a
               href="#tracking-number"
@@ -115,10 +115,10 @@ export default function HomeBody({
           <FadeIn>
             <p className="section-kicker">Help center</p>
             <h2 className="font-display text-2xl font-bold text-ink md:text-3xl">
-              FAQs About SpeedPak Tracking
+              FAQs About 4PX Tracking
             </h2>
             <p className="mt-2 mb-8 text-ink-mute">
-              Quick answers to the questions eBay and cross-border shoppers ask most.
+              Quick answers to the questions cross-border shoppers ask most.
             </p>
           </FadeIn>
           <FadeIn delay={0.08}>

@@ -1,6 +1,6 @@
-# SpeedPak Tracking
+# 4PX Tracking
 
-Independent Next.js site for **SpeedPAK tracking** at [speedpaktracking.com](https://speedpaktracking.com) — EE/ES tracking numbers, eBay cross-border packages, and partner-network scans.
+Official **4PX Tracking** website at [4pxtracking.net](https://4pxtracking.net) — 4PX Express tracking numbers, cross-border packages, and partner-network scans.
 
 ## Stack
 
@@ -31,4 +31,4 @@ npm start
 
 ## Note
 
-This site is **not affiliated** with Orange Connex, SpeedPAK, 4PX, or eBay.
+This is the **official 4PX Tracking** website for package lookups and tracking guides.

@@ -79,12 +79,12 @@ export const FEATURE_ICONS = {
 export const HOME_FEATURES: CardItem[] = [
   {
     title: "Real-Time Updates",
-    description: "Get live milestone updates and know where your SpeedPAK package stands.",
+    description: "Get live milestone updates and know where your 4PX package stands.",
     icon: FEATURE_ICONS.cart,
   },
   {
     title: "Multi-Carrier Support",
-    description: "Track SpeedPAK, 4PX partner events, and last-mile carriers in one place.",
+    description: "Track 4PX Express events and last-mile carriers in one place.",
     icon: FEATURE_ICONS.van,
   },
   {
@@ -94,7 +94,7 @@ export const HOME_FEATURES: CardItem[] = [
   },
   {
     title: "Easy-to-Use Interface",
-    description: "A simple, clean design makes EE/ES tracking lookups fast for every buyer.",
+    description: "A simple, clean design makes 4PX tracking lookups fast for every buyer.",
     icon: FEATURE_ICONS.phone,
   },
   {
@@ -103,8 +103,8 @@ export const HOME_FEATURES: CardItem[] = [
     icon: FEATURE_ICONS.pin,
   },
   {
-    title: "SpeedPAK Focused",
-    description: "Built for SpeedPAK numbers, eBay shipping updates, and partner references.",
+    title: "4PX Focused",
+    description: "Built for 4PX tracking numbers, Express statuses, and partner references.",
     icon: FEATURE_ICONS.bag,
   },
 ];
@@ -112,12 +112,12 @@ export const HOME_FEATURES: CardItem[] = [
 export const HOME_STEPS: CardItem[] = [
   {
     title: "Enter Your Number",
-    description: "Paste your SpeedPAK EE/ES tracking number in the search box.",
+    description: "Paste your 4PX tracking number in the search box.",
     icon: FEATURE_ICONS.keyboard,
   },
   {
     title: 'Click “Track Package”',
-    description: "Get instant updates on your SpeedPAK shipment.",
+    description: "Get instant updates on your 4PX shipment.",
     icon: FEATURE_ICONS.truck,
   },
   {
@@ -130,16 +130,16 @@ export const HOME_STEPS: CardItem[] = [
 function IconCard({ item }: { item: CardItem }) {
   return (
     <motion.article
-      className="group relative rounded-2xl border border-[#FFC9A8] bg-white px-5 pb-6 pt-10"
+      className="group relative rounded-2xl border border-[#C5C7EB] bg-white px-5 pb-6 pt-10"
       whileHover={{
         y: -6,
         borderColor: "#FD6B26",
-        boxShadow: "0 18px 40px -20px rgba(253, 107, 38, 0.45)",
+        boxShadow: "0 18px 40px -20px rgba(45, 48, 145, 0.35)",
       }}
       transition={{ type: "spring", stiffness: 320, damping: 24 }}
     >
       <motion.div
-        className="absolute -top-6 left-5 flex h-12 w-12 items-center justify-center rounded-full border border-[#FFC9A8] bg-white text-[#FD6B26] shadow-sm"
+        className="absolute -top-6 left-5 flex h-12 w-12 items-center justify-center rounded-full border border-[#C5C7EB] bg-white text-[#FD6B26] shadow-sm"
         aria-hidden
         variants={{
           rest: { scale: 1, rotate: 0 },
@@ -151,10 +151,10 @@ function IconCard({ item }: { item: CardItem }) {
       >
         {item.icon}
       </motion.div>
-      <h3 className="font-display text-lg font-bold tracking-tight text-[#9A3A14] md:text-[1.15rem]">
+      <h3 className="font-display text-lg font-bold tracking-tight text-[#2D3091] md:text-[1.15rem]">
         {item.title}
       </h3>
-      <p className="mt-2 text-[0.95rem] leading-relaxed text-[#6B6767]">{item.description}</p>
+      <p className="mt-2 text-[0.95rem] leading-relaxed text-[#6B6F8A]">{item.description}</p>
     </motion.article>
   );
 }

@@ -2,11 +2,11 @@
 
 **Last updated:** October 22, 2026
 
-This Privacy Policy explains how **SpeedPakTracking.com** (“we”, “us”, or “our”) handles information when you use https://speedpaktracking.com and related pages.
+This Privacy Policy explains how **4PXTracking.net** (“we”, “us”, or “our”) handles information when you use https://4pxtracking.net and related pages.
 
 ## Who We Are
 
-SpeedPakTracking.com is an independent package tracking website. We are not affiliated with Orange Connex, SpeedPAK, 4PX, or eBay. Contact: [contact@speedpaktracking.com](mailto:contact@speedpaktracking.com).
+4PXTracking.net is the official 4PX Tracking website for package lookups and tracking guides. Contact: [contact@4pxtracking.net](mailto:contact@4pxtracking.net).
 
 ## Information We Collect
 
@@ -37,7 +37,7 @@ We do **not** sell personal information. Tracking numbers are used to fetch ship
 
 ## Third-Party Services
 
-Tracking lookups may call third-party logistics data providers. Those providers process the reference you submit solely to return status data. Official Orange Connex, eBay, and carrier websites operate under their own privacy terms when you leave our site.
+Tracking lookups may call third-party logistics data providers. Those providers process the reference you submit solely to return status data. Marketplace and carrier websites operate under their own privacy terms when you leave our site.
 
 ## Data Retention
 
@@ -50,7 +50,7 @@ We use HTTPS and industry-standard hosting practices. No method of transmission 
 ## Your Choices
 
 - Adjust browser cookie settings  
-- Request correction or deletion of personal data you sent us by emailing [contact@speedpaktracking.com](mailto:contact@speedpaktracking.com)  
+- Request correction or deletion of personal data you sent us by emailing [contact@4pxtracking.net](mailto:contact@4pxtracking.net)  
 - Stop using the site at any time  
 
 ## Children’s Privacy
@@ -59,12 +59,12 @@ This site is intended for adult shoppers and sellers involved in package trackin
 
 ## International Visitors
 
-Our hosting and processors may be located in different countries. By using the site you understand that information may be processed outside your home jurisdiction with appropriate safeguards where required.
+Our servers and providers may process data in multiple countries. By using the site you understand that information may be transferred to jurisdictions with different data-protection rules.
 
 ## Changes
 
-We may update this policy to reflect product or legal changes. The “Last updated” date at the top will change when we do. Continued use after updates means you accept the revised policy.
+We may update this policy as the site evolves. The “Last updated” date at the top will change when we publish revisions. Continued use after changes means you accept the updated policy.
 
 ## Contact
 
-Privacy questions: [contact@speedpaktracking.com](mailto:contact@speedpaktracking.com).
+Privacy questions: [contact@4pxtracking.net](mailto:contact@4pxtracking.net).

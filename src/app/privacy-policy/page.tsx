@@ -5,8 +5,8 @@ import { getMarkdown, stripLeadingH1 } from "@/lib/content";
 import { BRAND, ROUTES, SITE_ORIGIN } from "@/lib/siteConfig";
 
 const PAGE_URL = `${SITE_ORIGIN}${ROUTES.privacy}`;
-const PAGE_TITLE = "Privacy Policy - SpeedPak Tracking";
-const PAGE_DESCRIPTION = "Privacy Policy of speedpaktracking.com";
+const PAGE_TITLE = "Privacy Policy - 4PX Tracking";
+const PAGE_DESCRIPTION = "Privacy Policy of 4pxtracking.net";
 
 export const metadata: Metadata = {
   title: { absolute: PAGE_TITLE },

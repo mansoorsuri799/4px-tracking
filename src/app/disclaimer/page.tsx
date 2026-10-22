@@ -5,8 +5,8 @@ import { getMarkdown, stripLeadingH1 } from "@/lib/content";
 import { BRAND, ROUTES, SITE_ORIGIN, SOCIAL } from "@/lib/siteConfig";
 
 const PAGE_URL = `${SITE_ORIGIN}${ROUTES.disclaimer}`;
-const PAGE_TITLE = "Disclaimer - SpeedPak Tracking";
-const PAGE_DESCRIPTION = "Disclaimer for https://speedpaktracking.com/";
+const PAGE_TITLE = "Disclaimer - 4PX Tracking";
+const PAGE_DESCRIPTION = "Disclaimer for https://4pxtracking.net/";
 
 export const metadata: Metadata = {
   title: { absolute: PAGE_TITLE },

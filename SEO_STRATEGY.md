@@ -1,29 +1,27 @@
-# SEO Strategy — SpeedPak Tracking (speedpaktracking.com)
+# SEO Strategy — 4PX Tracking (4pxtracking.net)
 
 ## Primary keyword
 
-- **speedpak tracking**
+- **4px tracking**
 
-## Supporting intents (live SERP, Oct 2026)
+## Supporting intents (live SERP)
 
-| Intent | Target URL |
+| Query intent | Route |
 | --- | --- |
-| How to track SpeedPAK package | `/how-to-track-speedpak-package` |
-| SpeedPAK tracking number (EE / ES) | `/speedpak-tracking-number` |
-| Tracking not updating | `/speedpak-tracking-not-updating` |
-| SpeedPAK / 4PX connection | `/speedpak-4px-tracking` |
+| How to track 4PX package | `/how-to-track-4px-package` |
+| 4PX tracking number | `/4px-tracking-number` |
+| Tracking not updating | `/4px-tracking-not-updating` |
+| 4PX Express tracking / statuses / delivery | `/4px-express-tracking` |
 
 ## Technical
 
-- Canonical host: `https://speedpaktracking.com`
+- Canonical host: `https://4pxtracking.net`
 - Sitemap index: `/sitemap-index.xml` → `/index.xml` + `/image-sitemap.xml`
-- Robots with Content-Signal + AI training bot blocks
-- Article + FAQ + Organization + WebSite JSON-LD
-- Unique titles/H1s; descriptive image alts
+- Robots: Content-Signal block + AI bot Disallows; sitemap points at sitemap-index only
+- Brand OG / Twitter images under `/feature/`
+- Article + FAQ + Breadcrumb JSON-LD on content pages
 
-## Differentiation
+## Notes
 
-- Original guides (not spun competitor copy)
-- Clear independent disclaimer
-- EE/ES number formats + Standard vs Economy explained
-- Internal links between the four SERP-backed posts only
+- Position 4pxtracking.net as the official 4PX Tracking website
+- Legacy SpeedPAK / Maersk / Shein slugs 301 to closest 4PX guides

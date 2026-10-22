@@ -281,7 +281,7 @@ export default function TrackingWidget() {
               setTrackingNumber(e.target.value);
               if (error) setError(null);
             }}
-            placeholder="SpeedPAK tracking number (EE / ES…)"
+            placeholder="4PX tracking number…"
             required
             autoComplete="off"
             className="min-w-0 flex-1 border-0 bg-transparent px-5 py-4 text-base text-black placeholder:text-neutral-400 focus:outline-none focus:ring-0"
