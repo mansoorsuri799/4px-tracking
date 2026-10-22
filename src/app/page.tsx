@@ -8,12 +8,12 @@ import { BRAND, HOME_FAQS, IMAGES, SITE_ORIGIN } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Shein Tracking | Track Shein Orders & Packages Worldwide",
+    absolute: "Maersk Tracking | Track Containers, Shipments & Parcels",
   },
   description: BRAND.description,
   alternates: { canonical: SITE_ORIGIN },
   openGraph: {
-    title: "Shein Tracking | Track Shein Orders & Packages Worldwide",
+    title: "Maersk Tracking | Track Containers, Shipments & Parcels",
     description: BRAND.description,
     url: SITE_ORIGIN,
     siteName: BRAND.name,
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Shein Tracking | Track Shein Orders & Packages Worldwide",
+    title: "Maersk Tracking | Track Containers, Shipments & Parcels",
     description: BRAND.description,
     images: [`${SITE_ORIGIN}${IMAGES.twitter}`],
   },
@@ -30,17 +30,17 @@ export const metadata: Metadata = {
 
 function prepareHomeContent(raw: string) {
   let md = raw
-    .replace(/\n## \*\*FAQs About Shein Tracking\*\*[\s\S]*$/, "")
-    .replace(/\n## FAQs About Shein Tracking[\s\S]*$/, "")
+    .replace(/\n## \*\*FAQs About Maersk Tracking\*\*[\s\S]*$/, "")
+    .replace(/\n## FAQs About Maersk Tracking[\s\S]*$/, "")
     .replace(/^#\s+\*?\*?[^\n]+\*?\*?\s*\n+/, "")
     // Feature-card placeholders — rendered as UI cards instead
-    .replace(/\n## Why Choose Us\?[\s\S]*?(?=\n## What Is Shein Tracking\?)/, "\n")
+    .replace(/\n## Why Choose Us\?[\s\S]*?(?=\n## What Is Maersk Tracking\?)/, "\n")
     .replace(/\n## Real-Time Updates\n*/g, "\n")
     // Closing CTA line — covered by the tracker + guides
     .replace(/\n## Stay Updated\n[\s\S]*$/, "\n")
     .trim();
 
-  const stepsMarker = "## How to Track Your Shein Order Step by Step?";
+  const stepsMarker = "## How to Track Your Maersk Shipment Step by Step?";
   const idx = md.indexOf(stepsMarker);
   if (idx === -1) {
     return { beforeSteps: md, afterSteps: "" };

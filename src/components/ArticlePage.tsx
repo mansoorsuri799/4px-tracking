@@ -24,7 +24,7 @@ export function articleMetadata(article: ArticleMeta): Metadata {
       siteName: BRAND.name,
       type: "article",
       publishedTime: article.date,
-      images: [{ url: `${SITE_ORIGIN}${article.image}`, width: 1536, height: 1024, alt: article.title }],
+      images: [{ url: `${SITE_ORIGIN}${article.image}`, width: 1280, height: 720, alt: article.title }],
     },
     twitter: {
       card: "summary_large_image",

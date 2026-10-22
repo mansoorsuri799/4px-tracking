@@ -216,13 +216,13 @@ export default function TrackingWidget() {
                       type="search"
                       value={search}
                       onChange={(e) => setSearch(e.target.value)}
-                      placeholder="Search carriers (Cainiao, DHL, Yun Express…)"
+                      placeholder="Search carriers (Maersk, DHL, MSC…)"
                       className="w-full rounded-xl border border-slate-200 px-3 py-2.5 text-sm text-ink focus:border-navy-500 focus:outline-none focus:ring-2 focus:ring-navy-500/20"
                       autoFocus
                     />
                     <p className="mt-2 text-xs text-ink-mute">
                       {filtered.length} carrier{filtered.length === 1 ? "" : "s"}
-                      {!deferredSearch.trim() ? " · popular Shein & partner carriers listed first" : ""}
+                      {!deferredSearch.trim() ? " · Maersk & major ocean carriers listed first" : ""}
                     </p>
                   </div>
 
@@ -281,7 +281,7 @@ export default function TrackingWidget() {
               setTrackingNumber(e.target.value);
               if (error) setError(null);
             }}
-            placeholder="Enter tracking number"
+            placeholder="Container, B/L, or booking number"
             required
             autoComplete="off"
             className="min-w-0 flex-1 border-0 bg-transparent px-5 py-4 text-base text-black placeholder:text-neutral-400 focus:outline-none focus:ring-0"
@@ -289,7 +289,7 @@ export default function TrackingWidget() {
           <button
             type="submit"
             disabled={loading}
-            className="flex shrink-0 items-center justify-center bg-black px-5 text-white transition hover:bg-neutral-800 disabled:opacity-70 focus-ring"
+            className="flex shrink-0 items-center justify-center bg-brand px-5 text-white transition hover:bg-brand-dark disabled:opacity-70 focus-ring"
             aria-label="Track package"
           >
             {loading ? (
@@ -446,7 +446,7 @@ export default function TrackingWidget() {
                       >
                         <span
                           className={`absolute -left-[5px] top-2.5 h-2 w-2 rounded-full ${
-                            isLatest ? "bg-black ring-2 ring-black/20" : "bg-neutral-300"
+                            isLatest ? "bg-brand ring-2 ring-brand/30" : "bg-neutral-300"
                           }`}
                           aria-hidden
                         />

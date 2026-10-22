@@ -11,7 +11,7 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="relative z-20 border-t border-white/10 bg-black text-neutral-300">
+    <footer className="relative z-20 border-t border-white/10 bg-[#211F1F] text-neutral-300">
       <div className="mx-auto max-w-6xl px-4 py-12 md:px-6">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
           <div>
@@ -24,15 +24,15 @@ export default function Footer() {
                 className="rounded-lg ring-1 ring-white/15"
               />
               <span className="font-display text-lg font-bold text-white">
-                Shein Tracking
+                Maersk Tracking
               </span>
             </Link>
             <p className="mt-3 text-sm leading-relaxed text-neutral-400">
-              Independent package tracking for Shein orders and multi-carrier shipments. Real-time
-              updates so you always know where your package is.
+              Independent tracking for Maersk containers, shipments, and multi-carrier cargo.
+              Real-time milestones so you always know where your freight is.
             </p>
             <p className="mt-3 text-xs text-neutral-500">
-              Not affiliated with SHEIN or its parent companies.
+              Not affiliated with A.P. Moller - Maersk or its subsidiaries.
             </p>
             <div className="mt-5 flex flex-wrap gap-2">
               {socialLinks.map((s) => (

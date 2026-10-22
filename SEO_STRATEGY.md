@@ -1,36 +1,29 @@
-# SEO Strategy — Shein Tracking
+# SEO Strategy — Maersk Tracking (maersktracking.com)
 
 ## Primary keyword
 
-**shein tracking** (domain: sheintracking.com)
+- **maersk tracking**
 
-## Supporting intents (from live SERP)
+## Supporting intents (live SERP, Oct 2026)
 
-- how to track Shein order
-- how long does Shein take to deliver
-- Shein tracking statuses
-- Shein tracking not updating
-- Shein delivered but not received
-- Shein customs clearance
-
-## On-page
-
-- Brand + keyword in title templates via `src/lib/siteConfig.ts`
-- Canonical absolute URLs on `sheintracking.com`
-- FAQPage + Article + Organization + WebSite JSON-LD
-- Image sitemap entries for logo, OG, and each blog hero
-- Internal links between related guides
+| Intent | Target URL |
+| --- | --- |
+| How to track Maersk shipment | `/how-to-track-maersk-shipment` |
+| Maersk container tracking | `/maersk-container-tracking` |
+| Bill of lading / booking tracking | `/maersk-bill-of-lading-tracking` |
+| Tracking not updating / unable to track | `/maersk-tracking-not-updating` |
 
 ## Technical
 
-1. Keep Core Web Vitals strong (App Router, optimized images, deferred analytics)
-2. Submit `https://sheintracking.com/sitemap-index.xml`
-3. Redirect legacy JCEX/AliExpress article URLs to matching Shein guides (`next.config.js`)
-4. Unique alt text per blog image under `/public/blog`
+- Canonical host: `https://maersktracking.com`
+- Sitemap index: `/sitemap-index.xml` → `/index.xml` + `/image-sitemap.xml`
+- Robots with Content-Signal + AI training bot blocks
+- Article + FAQ + Organization + WebSite JSON-LD
+- Unique titles/H1s; descriptive image alts
 
-## Content differentiators
+## Differentiation
 
-- Original guides mapped to real SERP demand (not thin doorway pages)
-- Clear independent-service disclaimer on About / Contact / Disclaimer
-- Honest delivery ranges and customs wait expectations
-- Multi-carrier tracker on-domain as the primary conversion UX
+- Original guides (not spun competitor copy)
+- Clear independent disclaimer
+- Container vs B/L vs booking explained with tables
+- Internal links between the four SERP-backed posts only

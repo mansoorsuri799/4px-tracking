@@ -79,50 +79,50 @@ export const FEATURE_ICONS = {
 export const HOME_FEATURES: CardItem[] = [
   {
     title: "Real-Time Updates",
-    description: "Get real-time tracking information and know exactly where your Shein package has arrived.",
+    description: "Get live milestone updates and know where your Maersk container or shipment stands.",
     icon: FEATURE_ICONS.cart,
   },
   {
     title: "Multi-Carrier Support",
-    description: "Track Shein parcels and shipments from many major carriers in one place.",
+    description: "Track Maersk cargo and partner-carrier events from major networks in one place.",
     icon: FEATURE_ICONS.van,
   },
   {
-    title: "Smart Notifications",
-    description: "Get alerts for important updates like “Out for Delivery” or “Delivered.”",
+    title: "Clear Milestones",
+    description: "Follow gate-in, vessel departure, arrival, discharge, and gate-out events.",
     icon: FEATURE_ICONS.chat,
   },
   {
     title: "Easy-to-Use Interface",
-    description: "A simple and clean design makes tracking your Shein orders easy.",
+    description: "A simple, clean design makes container and B/L lookups fast for every team.",
     icon: FEATURE_ICONS.phone,
   },
   {
-    title: "Clear Status Timeline",
-    description: "Follow every scan from warehouse handoff through customs and last-mile delivery.",
+    title: "Full Status Timeline",
+    description: "See the journey from origin terminal through ocean transit and inland delivery.",
     icon: FEATURE_ICONS.pin,
   },
   {
-    title: "Shein Optimized",
-    description: "Built specifically to track Shein orders quickly and accurately.",
+    title: "Maersk Focused",
+    description: "Built for container numbers, bills of lading, bookings, and parcel references.",
     icon: FEATURE_ICONS.bag,
   },
 ];
 
 export const HOME_STEPS: CardItem[] = [
   {
-    title: "Enter Tracking Number",
-    description: "Paste your Shein tracking number in the search box.",
+    title: "Enter Your Reference",
+    description: "Paste a container, B/L, booking, or parcel number in the search box.",
     icon: FEATURE_ICONS.keyboard,
   },
   {
     title: 'Click “Track Package”',
-    description: "Get instant updates on your shipment.",
+    description: "Get instant updates on your Maersk shipment.",
     icon: FEATURE_ICONS.truck,
   },
   {
     title: "Stay Updated",
-    description: "Receive the latest tracking info anytime.",
+    description: "Check the latest milestones anytime as cargo moves.",
     icon: FEATURE_ICONS.update,
   },
 ];
@@ -130,16 +130,16 @@ export const HOME_STEPS: CardItem[] = [
 function IconCard({ item }: { item: CardItem }) {
   return (
     <motion.article
-      className="group relative rounded-2xl border border-[#D5E0F0] bg-white px-5 pb-6 pt-10"
+      className="group relative rounded-2xl border border-[#C5E8F4] bg-white px-5 pb-6 pt-10"
       whileHover={{
         y: -6,
-        borderColor: "#B8C9E6",
-        boxShadow: "0 18px 40px -20px rgba(10, 42, 92, 0.35)",
+        borderColor: "#48C0E4",
+        boxShadow: "0 18px 40px -20px rgba(72, 192, 228, 0.45)",
       }}
       transition={{ type: "spring", stiffness: 320, damping: 24 }}
     >
       <motion.div
-        className="absolute -top-6 left-5 flex h-12 w-12 items-center justify-center rounded-full border border-[#D5E0F0] bg-white text-[#FF6A00] shadow-sm"
+        className="absolute -top-6 left-5 flex h-12 w-12 items-center justify-center rounded-full border border-[#C5E8F4] bg-white text-[#48C0E4] shadow-sm"
         aria-hidden
         variants={{
           rest: { scale: 1, rotate: 0 },
@@ -151,10 +151,10 @@ function IconCard({ item }: { item: CardItem }) {
       >
         {item.icon}
       </motion.div>
-      <h3 className="font-display text-lg font-bold tracking-tight text-[#0D3A8A] md:text-[1.15rem]">
+      <h3 className="font-display text-lg font-bold tracking-tight text-[#0F5F78] md:text-[1.15rem]">
         {item.title}
       </h3>
-      <p className="mt-2 text-[0.95rem] leading-relaxed text-[#667788]">{item.description}</p>
+      <p className="mt-2 text-[0.95rem] leading-relaxed text-[#6B6767]">{item.description}</p>
     </motion.article>
   );
 }

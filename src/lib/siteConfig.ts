@@ -1,20 +1,20 @@
-/** Central brand / domain config for Shein Tracking */
-export const SITE_ORIGIN = "https://sheintracking.com";
+/** Central brand / domain config for Maersk Tracking */
+export const SITE_ORIGIN = "https://maersktracking.com";
 
 export const BRAND = {
-  name: "Shein Tracking",
-  shortName: "Shein Tracking",
-  keyword: "shein tracking",
-  domain: "sheintracking.com",
-  email: "contact@sheintracking.com",
-  twitter: "@sheintracking",
-  tagline: "Track Shein Orders & Packages Worldwide",
+  name: "Maersk Tracking",
+  shortName: "Maersk Tracking",
+  keyword: "maersk tracking",
+  domain: "maersktracking.com",
+  email: "contact@maersktracking.com",
+  twitter: "@maersktracking",
+  tagline: "Track Maersk Containers, Shipments & Parcels",
   description:
-    "Track Shein orders worldwide: find your tracking number, check live status, delivery times, customs clearance, and fixes when Shein tracking is not updating.",
+    "Track Maersk containers, shipments, and parcels worldwide. Enter a container number, bill of lading, or booking reference for live status and milestone updates.",
 } as const;
 
-/** Official SHEIN site (optional outbound link) */
-export const OFFICIAL_URL = "https://www.shein.com";
+/** Official Maersk site (optional outbound link) */
+export const OFFICIAL_URL = "https://www.maersk.com";
 
 export const ROUTES = {
   home: "/",
@@ -26,137 +26,106 @@ export const ROUTES = {
 } as const;
 
 export const IMAGES = {
-  logo: "/shein-tracking.webp",
-  favicon: "/shein-tracking.webp",
-  brandLogo: "/shein-tracking.webp",
-  banner: "/shein-tracking-website.webp",
+  logo: "/maersk-tracking.webp",
+  favicon: "/maersk-tracking.webp",
+  brandLogo: "/maersk-tracking.webp",
+  banner: "/maersk-tracking-website.webp",
   og: "/feature/og-image-1200x630.png",
   ogSquare: "/feature/og-square-1200x1200.png",
   twitter: "/feature/twitter-card-1200x600.png",
-  website: "/shein-tracking-website.webp",
-  tool: "/shein-tracking-tool.webp",
-  heroAlt: "/shein-tracking-2.webp",
+  website: "/maersk-tracking-website.webp",
+  tool: "/maersk-tracking-shipment.webp",
+  container: "/maersk-tracking-container.webp",
+  parcel: "/maersk-tracking-parcel.webp",
+  shipment: "/maersk-tracking-shipment.webp",
+  heroAlt: "/maersk-tracking-container.webp",
 } as const;
 
 export const ARTICLES = [
   {
-    slug: "how-to-track-your-shein-order",
-    title: "How to Track Your Shein Order: Step-by-Step Guide",
-    metaTitle: "How to Track Your Shein Order | Step-by-Step Guide",
+    slug: "how-to-track-maersk-shipment",
+    title: "How to Track a Maersk Shipment: Step-by-Step Guide",
+    metaTitle: "How to Track a Maersk Shipment | Step-by-Step Guide",
     description:
-      "Learn how to track a Shein order with your tracking number — on sheintracking.com, in the SHEIN app, and with the last-mile carrier.",
+      "Learn how to track a Maersk shipment with a container number, bill of lading, or booking reference — on maersktracking.com and on Maersk’s own tools.",
+    date: "2026-10-22",
+    image: "/blog/how-to-track-maersk-shipment.webp",
+  },
+  {
+    slug: "maersk-container-tracking",
+    title: "Maersk Container Tracking: Find Your Container by Number",
+    metaTitle: "Maersk Container Tracking by Container Number",
+    description:
+      "Use Maersk container tracking to follow ISO container numbers (e.g. MAEU…), vessel milestones, port events, and estimated arrival windows.",
     date: "2026-10-20",
-    image: "/blog/how-to-track-your-shein-order.webp",
+    image: "/blog/maersk-container-tracking.webp",
   },
   {
-    slug: "how-long-does-shein-take",
-    title: "How Long Does Shein Take to Deliver? Real Times by Shipping Type",
-    metaTitle: "How Long Does Shein Take to Deliver? (2026 Times)",
+    slug: "maersk-bill-of-lading-tracking",
+    title: "Maersk Bill of Lading Tracking: Track by B/L or Booking",
+    metaTitle: "Maersk Bill of Lading & Booking Tracking Guide",
     description:
-      "How long does Shein take to deliver? See realistic delivery windows for standard and express shipping, plus what customs and peak seasons add.",
+      "Track Maersk cargo with a bill of lading or booking reference when you do not have the container number yet — and know which ID to use.",
     date: "2026-10-18",
-    image: "/blog/how-long-does-shein-take.webp",
+    image: "/blog/maersk-bill-of-lading-tracking.webp",
   },
   {
-    slug: "shein-tracking-statuses-explained",
-    title: "Shein Tracking Statuses Explained: Customs, In Transit & Out for Delivery",
-    metaTitle: "Shein Tracking Statuses Explained (What Each Means)",
+    slug: "maersk-tracking-not-updating",
+    title: "Maersk Tracking Not Updating? Causes and What to Do",
+    metaTitle: "Maersk Tracking Not Updating? Causes & Fixes",
     description:
-      "Decode Shein tracking statuses — order placed, shipped, customs, arrived at local facility, out for delivery — and what to do at each stage.",
+      "Maersk tracking not updating for days? Learn why ocean and inland scans pause, how long to wait, and proven ways to check your shipment correctly.",
     date: "2026-10-16",
-    image: "/blog/shein-tracking-statuses-explained.webp",
-  },
-  {
-    slug: "shein-tracking-not-updating",
-    title: 'Shein Tracking Not Updating? Causes and What to Do',
-    metaTitle: "Shein Tracking Not Updating? Causes & Fixes",
-    description:
-      "Shein tracking not updating for days? Learn why scans pause, how long to wait, and proven ways to check your package correctly.",
-    date: "2026-10-14",
-    image: "/blog/shein-tracking-not-updating.webp",
-  },
-  {
-    slug: "shein-delivered-but-not-received",
-    title: "Shein Says Delivered But I Didn't Receive It? What to Do",
-    metaTitle: "Shein Delivered But Not Received? What to Do",
-    description:
-      "Shein tracking says delivered but you got nothing? Check alternate drop spots, contact the last-mile carrier, and open a claim in time.",
-    date: "2026-10-12",
-    image: "/blog/shein-delivered-but-not-received.webp",
-  },
-  {
-    slug: "shein-customs-clearance",
-    title: "Shein Package Undergoing Customs Clearance: How Long It Takes",
-    metaTitle: "Shein Customs Clearance: How Long & What It Means",
-    description:
-      "Your Shein order says undergoing customs clearance? Learn what that status means, typical wait times, and when to worry.",
-    date: "2026-10-10",
-    image: "/blog/shein-customs-clearance.webp",
+    image: "/blog/maersk-tracking-not-updating.webp",
   },
 ] as const;
 
 export const HOME_FAQS = [
   {
-    q: "How do I track my Shein order?",
-    a: "Open My Orders in the SHEIN app or website, open the shipped order, copy the tracking number, then paste it into the tracker on sheintracking.com. You can also follow merchant status inside SHEIN and last-mile scans on the local courier site.",
+    q: "How do I track a Maersk shipment?",
+    a: "Enter your container number, bill of lading, or booking reference in the tracker on maersktracking.com. You can also track on maersk.com by choosing Ocean, Air, LCL, or Parcel and pasting the same reference.",
   },
   {
-    q: "Where do I find my Shein tracking number?",
-    a: "Sign in → Me / Account → My Orders → select the shipped order → Track or View details. Copy the shipment tracking number shown there. Order IDs are not the same as tracking numbers.",
+    q: "What numbers work for Maersk tracking?",
+    a: "Common references include ISO container numbers (often starting with MAEU or other owner prefixes), Maersk bill of lading numbers, booking references, and parcel tracking numbers for Maersk parcel products.",
   },
   {
-    q: "How long does Shein take to deliver to the United States?",
-    a: "Standard Shein shipping to the US often arrives in about 7–20 days. Express options can land in roughly 3–10 days. Customs checks, sales events, and remote addresses can add extra time.",
+    q: "Where do I find my Maersk tracking number?",
+    a: "Check your booking confirmation, bill of lading, shipping instructions, or the email/portal message from your freight forwarder or shipper. Container numbers are also stamped on the container doors.",
   },
   {
-    q: "Why hasn’t my Shein tracking number started working?",
-    a: "Tracking often activates only after the warehouse scans and hands the parcel to a carrier. That can take 1–5 days after the order shows as shipped. Paste the number here once it appears in My Orders.",
+    q: "What is the difference between a container number and a B/L?",
+    a: "A container number identifies one physical box. A bill of lading covers the contractual shipment and may include one or more containers. Booking references identify the booking before or alongside the B/L.",
   },
   {
-    q: "Can I track a Shein package without a tracking number?",
-    a: "You can follow high-level order status inside the SHEIN app, but detailed carrier scans need the tracking number shown after the package ships.",
+    q: "Why isn’t my Maersk tracking number working yet?",
+    a: "Tracking often activates after the booking is confirmed and the first terminal or carrier event is recorded. Wrong reference type, typos, or shipments still with the shipper can delay the first scan.",
   },
   {
-    q: "Why does Shein tracking stop updating for several days?",
-    a: "Long quiet gaps are common on international legs — especially between origin hubs, air freight, and customs. Official guidance often notes that updates can take 3–5 days between checkpoints.",
+    q: "Why does Maersk tracking stop updating for several days?",
+    a: "Quiet gaps are common while a vessel is at sea, during transshipment, or between inland handoffs. Ocean legs may go days without a new event even when the cargo is moving as planned.",
   },
   {
-    q: "What does “undergoing customs clearance” mean on Shein tracking?",
-    a: "It means border officials are processing the parcel before local delivery. Most clearances finish in a few days, but busy seasons or inspections can take longer.",
+    q: "Can I track Maersk parcels the same way as containers?",
+    a: "Parcel products use parcel tracking numbers and a parcel flow, while ocean cargo uses container, B/L, or booking IDs. Use the number printed on your parcel label or booking confirmation.",
   },
   {
-    q: "How do I track Shein orders after they enter my country?",
-    a: "After customs release, many parcels move to a local postal or courier network. Use the same tracking number here and on the last-mile carrier’s site for the freshest scans.",
+    q: "How accurate are Maersk estimated arrival dates?",
+    a: "ETAs are planning estimates. Weather, port congestion, customs holds, and vessel schedule changes can move the real arrival later or earlier than the estimate shown.",
   },
   {
-    q: "What should I do if Shein says delivered but I didn’t get the package?",
-    a: "Check neighbors, building staff, lockers, and porches; confirm the delivery address; then contact the last-mile carrier and SHEIN support. Open a claim if you still cannot locate it.",
+    q: "What should I do if I cannot track my Maersk container?",
+    a: "Confirm you are using the correct reference type, check for transposed characters, try again later, and contact your shipper or Maersk support with the booking details if the number still fails.",
   },
   {
-    q: "Why did my Shein order split into multiple tracking numbers?",
-    a: "SHEIN often ships items from different warehouses or stock types separately. Each package gets its own number and may arrive on a different day — track every shipped line item.",
-  },
-  {
-    q: "Which carriers does Shein use?",
-    a: "Routes vary by destination and shipping method. Common partners include Cainiao-related lines, Yun Express, Yanwen, 4PX, national posts such as USPS, and express brands on faster lanes. The carrier name is usually shown next to Track in My Orders.",
-  },
-  {
-    q: "Can I speed up Shein shipping after ordering?",
-    a: "Once a shipment is in transit you usually cannot upgrade the service. Choose express at checkout when speed matters.",
-  },
-  {
-    q: "How accurate are Shein estimated delivery dates?",
-    a: "Estimated windows are helpful averages. Customs, weather, peak sales, and last-mile delays can push real delivery later than the estimate.",
-  },
-  {
-    q: "Is sheintracking.com affiliated with SHEIN?",
-    a: "No. SheinTracking.com is an independent multi-carrier tracking site. We are not affiliated with SHEIN. For refunds, returns, and account issues, contact SHEIN support through your account.",
+    q: "Is maersktracking.com affiliated with Maersk?",
+    a: "No. MaerskTracking.com is an independent multi-carrier tracking site. We are not affiliated with A.P. Moller - Maersk. For bookings, claims, and account issues, contact Maersk or your freight partner through official channels.",
   },
 ] as const;
 
 export const SOCIAL = {
-  facebook: "https://www.facebook.com/SHEINOFFICIAL/",
-  twitter: "https://x.com/SHEIN_Official",
-  instagram: "https://www.instagram.com/sheinofficial/",
-  youtube: "https://www.youtube.com/channel/UCyLC0byWRwTw16Gc74SPp9w",
+  facebook: "https://www.facebook.com/Maersk/",
+  twitter: "https://x.com/Maersk",
+  instagram: "https://www.instagram.com/maersk/",
+  youtube: "https://www.youtube.com/user/MaerskLine",
 } as const;

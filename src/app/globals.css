@@ -3,23 +3,24 @@
 @tailwind utilities;
 
 :root {
-  --brand: #ff6a00;
-  --navy-start: #0a2a5c;
-  --navy-end: #1a56c5;
-  --coral: #ff6a00;
-  --ink: #0b1220;
-  --paper: #f5f7fb;
-  --foreground-rgb: 11, 18, 32;
-  --background-start-rgb: 245, 247, 251;
+  /* From maersk-tracking.webp — cyan star square + logo black */
+  --brand: #48c0e4;
+  --navy-start: #0f5f78;
+  --navy-end: #48c0e4;
+  --coral: #48c0e4;
+  --ink: #211f1f;
+  --paper: #f4fbfd;
+  --foreground-rgb: 33, 31, 31;
+  --background-start-rgb: 244, 251, 253;
   --background-end-rgb: 255, 255, 255;
-  --feature-border: #d5e0f0;
-  --feature-title: #0d3a8a;
-  --feature-icon: #ff6a00;
+  --feature-border: #c5e8f4;
+  --feature-title: #0f5f78;
+  --feature-icon: #48c0e4;
 }
 
 html {
   scroll-behavior: smooth;
-  background-color: #000;
+  background-color: #211f1f;
 }
 
 body {
@@ -42,16 +43,16 @@ footer {
 
 .hero-gradient {
   background:
-    radial-gradient(ellipse 70% 55% at 18% 18%, rgba(255, 255, 255, 0.08), transparent 55%),
-    radial-gradient(ellipse 60% 45% at 88% 12%, rgba(255, 255, 255, 0.05), transparent 50%),
-    linear-gradient(160deg, #000000 0%, #0a0a0a 42%, #141414 78%, #1a1a1a 100%);
+    radial-gradient(ellipse 70% 55% at 18% 18%, rgba(72, 192, 228, 0.22), transparent 55%),
+    radial-gradient(ellipse 60% 45% at 88% 12%, rgba(72, 192, 228, 0.12), transparent 50%),
+    linear-gradient(160deg, #211f1f 0%, #1a1818 42%, #2a2828 78%, #333030 100%);
 }
 
-/* Shein-style black banners (blog, articles, policy pages) */
+/* Page banners — logo charcoal with cyan glow */
 .page-banner {
   background:
-    radial-gradient(ellipse 65% 50% at 85% 20%, rgba(255, 255, 255, 0.07), transparent 55%),
-    linear-gradient(145deg, #000000 0%, #0a0a0a 45%, #171717 100%);
+    radial-gradient(ellipse 65% 50% at 85% 20%, rgba(72, 192, 228, 0.18), transparent 55%),
+    linear-gradient(145deg, #211f1f 0%, #1a1818 45%, #2c2a2a 100%);
 }
 
 .section-kicker {
@@ -107,7 +108,7 @@ footer {
 .prose-ul > .prose-li::before {
   content: "";
   @apply absolute left-0 top-[0.55em] h-2 w-2 rounded-full bg-brand;
-  box-shadow: 0 0 0 3px rgba(255, 106, 0, 0.18);
+  box-shadow: 0 0 0 3px rgba(72, 192, 228, 0.22);
 }
 
 .prose-ol > .prose-li {
@@ -120,12 +121,12 @@ footer {
 }
 
 .prose-a {
-  @apply font-semibold text-navy-700 underline underline-offset-[3px] transition-colors hover:text-brand;
-  text-decoration-color: rgba(18, 70, 176, 0.35);
+  @apply font-semibold text-navy-700 underline underline-offset-[3px] transition-colors hover:text-brand-dark;
+  text-decoration-color: rgba(72, 192, 228, 0.45);
 }
 
 .prose-a:hover {
-  text-decoration-color: rgba(255, 106, 0, 0.5);
+  text-decoration-color: rgba(42, 175, 212, 0.7);
 }
 
 .prose-strong {

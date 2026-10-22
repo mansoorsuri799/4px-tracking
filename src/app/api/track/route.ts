@@ -65,7 +65,7 @@ async function trackViaCainiao(
     headers: {
       Accept: "application/json, text/plain, */*",
       "User-Agent":
-        "Mozilla/5.0 (compatible; SheinTracking/1.0; +https://sheintracking.com)",
+        "Mozilla/5.0 (compatible; MaerskTracking/1.0; +https://maersktracking.com)",
       Referer: "https://global.cainiao.com/",
     },
     cache: "no-store",

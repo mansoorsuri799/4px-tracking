@@ -14,7 +14,7 @@ export default function HomeGuides() {
           <p className="section-kicker">Guides & tips</p>
           <h2 className="font-display text-2xl font-bold text-ink md:text-3xl">Tracking guides</h2>
           <p className="mt-2 text-ink-mute">
-            Step-by-step help for common Shein shipping and tracking questions.
+            Step-by-step help for common Maersk container, B/L, and tracking questions.
           </p>
         </FadeIn>
         <Stagger className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

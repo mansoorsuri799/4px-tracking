@@ -1,63 +1,70 @@
 # Privacy Policy
 
-Privacy Policy of [sheintracking.com](/)
-
-At [Shein Tracking](/), your privacy matters. This policy explains how we collect, use, and protect personal information when you use our tracking services.
-
 **Last updated:** October 22, 2026
 
-## Who we are
+This Privacy Policy explains how **MaerskTracking.com** (“we”, “us”, or “our”) handles information when you use https://maersktracking.com and related pages.
 
-Shein Tracking (sheintracking.com) is an independent package-tracking website. We are not SHEIN and are not affiliated with SHEIN.
+## Who We Are
 
-## Information we collect
+MaerskTracking.com is an independent shipment tracking website. We are not affiliated with A.P. Moller - Maersk. Contact: [contact@maersktracking.com](mailto:contact@maersktracking.com).
 
-- **Tracking lookups:** tracking numbers and optional carrier selections you submit to retrieve shipment status
-- **Contact messages:** name, email, and message content if you use our contact form or email us
-- **Technical data:** IP address, browser type, device info, and approximate location derived from standard server/analytics logs
-- **Cookies / similar tech:** used for analytics, advertising (if enabled), and basic site function
+## Information We Collect
 
-We do not ask for SHEIN account passwords and you should never send them to us.
+### Information you provide
 
-## How we use information
+- Tracking numbers or references you enter into the tracker  
+- Messages and email address you send via the contact form or email  
+- Any other details you voluntarily include in correspondence  
 
-- Provide tracking results from carrier data partners
-- Respond to support or privacy requests
-- Improve performance, security, and content
-- Measure traffic with analytics tools when configured
-- Show ads when an ad network is configured on the site
+### Information collected automatically
 
-## Sharing
+- Standard server and security logs (IP address, browser type, referring URL, timestamps)  
+- Approximate device and usage data needed to keep the site reliable  
+- Cookies or similar technologies if analytics or advertising scripts are enabled on your visit  
 
-We may share data with:
+### Analytics and advertising
 
-- Infrastructure and analytics providers that process data on our behalf
-- Carrier / tracking API providers needed to fulfill a lookup
-- Advertising partners if ads are enabled
-- Authorities when required by law
+If Google Analytics, AdSense, or similar tools are configured, those providers may collect usage data under their own policies. You can control cookies through your browser settings.
 
-We do not sell your tracking numbers as a standalone product list.
+## How We Use Information
 
-## Cookies
+- To return tracking results you request  
+- To respond to support messages  
+- To maintain security, prevent abuse, and improve performance  
+- To measure aggregated traffic and content usefulness  
 
-You can control cookies through your browser settings. Disabling some cookies may limit analytics or ad personalization but core tracking lookup should still work.
+We do **not** sell personal information. Tracking numbers are used to fetch shipment status and are not treated as a public profile.
 
-## Data retention
+## Third-Party Services
 
-Lookup and log data are kept only as long as needed for operations, security, and legal requirements. Contact emails are retained while your request is open and for a reasonable follow-up period.
+Tracking lookups may call third-party logistics data providers. Those providers process the reference you submit solely to return status data. Official Maersk websites and portals operate under Maersk’s own privacy terms when you leave our site.
 
-## Your choices
+## Data Retention
 
-Depending on your region, you may request access, correction, or deletion of personal data we hold about you. Email [contact@sheintracking.com](mailto:contact@sheintracking.com) with the subject “Privacy request.”
+Contact emails are kept as long as needed to resolve your request and for legitimate business records. Server logs are retained for a limited period for security and diagnostics. Tracking lookups are processed to fulfill your request and are not used to build a public history of your shipments on this site.
 
-## Children’s privacy
+## Security
 
-This site is not directed at children under 13 (or the equivalent minimum age in your region). We do not knowingly collect their personal information.
+We use HTTPS and industry-standard hosting practices. No method of transmission over the Internet is 100% secure; please avoid sending passwords, payment card data, or government ID numbers through the contact form.
+
+## Your Choices
+
+- Adjust browser cookie settings  
+- Request correction or deletion of personal data you sent us by emailing [contact@maersktracking.com](mailto:contact@maersktracking.com)  
+- Stop using the site at any time  
+
+## Children’s Privacy
+
+This site is intended for business and adult users involved in shipping. We do not knowingly collect personal information from children.
+
+## International Visitors
+
+Our hosting and processors may be located in different countries. By using the site you understand that information may be processed outside your home jurisdiction with appropriate safeguards where required.
 
 ## Changes
 
-We may update this policy. The “Last updated” date at the top will change when we do. Continued use of sheintracking.com after changes means you accept the revised policy.
+We may update this policy to reflect product or legal changes. The “Last updated” date at the top will change when we do. Continued use after updates means you accept the revised policy.
 
 ## Contact
 
-Privacy questions: [contact@sheintracking.com](mailto:contact@sheintracking.com)
+Privacy questions: [contact@maersktracking.com](mailto:contact@maersktracking.com).

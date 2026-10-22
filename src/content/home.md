@@ -1,166 +1,103 @@
-Cross-border fashion shopping is part of everyday life for millions of buyers — and waiting on a Shein parcel without clear updates is one of the most common frustrations. Whether your order left a China warehouse yesterday or is sitting in customs this week, knowing how to **track Shein packages** turns anxiety into a simple status check. [SheinTracking.com](/) is built for that exact job: paste your number, read the live timeline, and understand what each status really means.
+Global ocean freight moves most of the world’s trade — and waiting on a Maersk container without clear milestones is one of the most common frustrations for shippers and consignees. Whether your cargo just left the origin terminal or is waiting for vessel departure this week, knowing how to use **Maersk tracking** turns uncertainty into a simple status check. [MaerskTracking.com](/) is built for that job: paste your container number, bill of lading, or booking reference, read the live timeline, and understand what each milestone means.
 
 ## Why Choose Us?
 
 ## Real-Time Updates
 
-## What Is Shein Tracking?
+## What Is Maersk Tracking?
 
-**Shein tracking** is the process of following a SHEIN order from warehouse handoff to your door using a unique tracking number. After you check out, SHEIN (or a marketplace seller) packs the items, assigns a shipment ID, and hands the parcel to an international logistics partner. From there the package typically moves through:
+**Maersk tracking** is the process of following ocean, air, LCL, or parcel cargo handled in Maersk’s network using a unique reference. After a booking is confirmed, terminals, vessels, and inland partners publish events as the shipment moves. From there a typical ocean journey includes:
 
-1. **Origin warehouse / outbound scan** — first proof the parcel exists in a carrier network  
-2. **International linehaul** — usually air freight between hubs  
-3. **Import customs** — clearance in your country  
-4. **Last-mile delivery** — national post or courier to your address  
+1. **Empty pickup / gate-in** — the container enters the carrier or terminal system  
+2. **Vessel load & departure** — cargo sails on the planned voyage  
+3. **Transshipment (if any)** — hub port discharge and reload  
+4. **Arrival & discharge** — destination port events  
+5. **Gate-out / inland delivery** — truck, rail, or depot handoff to the consignee  
 
-That multi-leg journey is why one order can show different wording in the SHEIN app and on a universal tracker. Merchant apps emphasize order milestones (paid, processed, shipped). Carrier networks publish operational scans (departed facility, customs, out for delivery). [Shein Tracking](/) focuses on the tracking number itself so you can see both sides of the story in one place.
+That multi-leg journey is why one booking can show different wording in a forwarder portal and on a universal tracker. Booking tools emphasize commercial milestones. Operational networks publish terminal and vessel events. [Maersk Tracking](/) focuses on the reference itself so you can see progress in one place.
 
-## How Shein Package Tracking Works
+## How Maersk Shipment Tracking Works
 
-### When the tracking number appears
+### When tracking becomes available
 
-A carrier tracking number usually appears **after** the warehouse marks the order as shipped. Until then, My Orders may only show *Processing*, *Preparing*, or *To be shipped*. That gap of one to several days is normal — especially during big sales when warehouses are busy.
+A container or B/L often starts returning events **after** the first terminal or carrier scan. Until then, your booking confirmation may only show planned dates. That gap of hours to a few days is normal — especially before gate-in or during documentation checks.
 
-### Split shipments
+### Multiple containers on one booking
 
-Large or mixed stock orders are often split into **multiple packages**. Each package can have its own tracking number and its own delivery date. Always open every shipped line item in My Orders before assuming something is missing.
+A single bill of lading can cover **several containers**. Each box has its own ISO number and can move on a slightly different inland schedule. Always track every container listed on the B/L before assuming something is missing.
 
-### Why the SHEIN app and this site can differ
+### Why Maersk.com and this site can differ
 
-SHEIN summarizes merchant status. We pull multi-carrier scan data for the same number. Both can be correct at once: the app says “shipped” while the detailed timeline shows the exact hub that scanned your box an hour ago.
+Official Maersk tools show carrier-native events for the selected booking type. We surface multi-carrier and partner scan data for the same reference when available. Both can be useful: one emphasizes Maersk milestones; the other may add denser partner history around the same journey.
 
-## How to Find Your Shein Tracking Number
+## How to Find Your Maersk Tracking Number
 
-1. Open the SHEIN website or app and sign in.  
-2. Go to **Me / Account → My Orders**.  
-3. Select the order that shows as **Shipped** or **In transit**.  
-4. Tap **Track** or **View details**.  
-5. Copy the shipment / tracking number (and note the carrier name if shown).
+1. Open your booking confirmation, bill of lading, or forwarder portal.  
+2. Locate the **container number**, **bill of lading**, or **booking reference**.  
+3. For parcels, copy the **parcel tracking number** from the label or notification.  
+4. Note the booking type if shown (Ocean, Air, LCL, or Parcel).  
+5. Paste the reference into the tracker at the top of this page.
 
-If Track is missing, the package may still be in packing. Wait for a shipping confirmation email or check again after the order status updates. Never confuse your **order ID** with the **tracking number** — they look different and only the tracking number works in carrier systems.
+If nothing returns yet, the shipment may still be with the shipper or awaiting the first gate event. Double-check for transposed characters — container check digits and B/L formats are easy to mistype. Never confuse an invoice number with a tracking reference; only the IDs listed above work in carrier systems.
 
-For a deeper walkthrough, read our full guide: [How to track your Shein order](/how-to-track-your-shein-order).
+For a deeper walkthrough, read our full guide: [How to track a Maersk shipment](/how-to-track-maersk-shipment).
 
-## How to Track Your Shein Order Step by Step?
+## How to Track Your Maersk Shipment Step by Step?
 
-Use the search box at the top of this page for the fastest multi-carrier view. Most shoppers only need the tracking number; selecting a carrier can help when several networks share similar code formats.
+Use the search box at the top of this page for the fastest multi-carrier view. Most users only need the container number or B/L; selecting a carrier can help when several networks share similar code formats.
 
 You can also:
 
-- Track inside **SHEIN My Orders** for merchant-side milestones  
-- Paste the same number on [sheintracking.com](/) for a denser scan history  
-- Open the **last-mile carrier** site once a local facility appears (often the freshest “out for delivery” scans)
+- Track on **[maersk.com/tracking](https://www.maersk.com/tracking/)** for official Ocean, Air, LCL, or Parcel flows  
+- Paste the same reference on [maersktracking.com](/) for a denser scan history when partner events are available  
+- Open your **forwarder or customs broker** portal once destination milestones appear  
 
-## How Long Does Shein Take to Deliver?
+## Maersk Tracking Reference Types
 
-Delivery time depends on shipping method, destination, customs, and whether items are warehouse stock or marketplace / preorder pieces.
+Different IDs answer different questions. Choosing the right one avoids false “not found” results.
 
-| Shipping type | Typical door-to-door window | What to expect |
+| Reference type | What it identifies | Best when |
 | --- | --- | --- |
-| Standard / economy | About **7–20 days** to many US/EU addresses | Most common low-cost option |
-| Express / faster lanes | About **3–10 days** when offered | Priority air and tighter customs paths |
-| Peak sales & holidays | Add days to **2+ weeks** | Warehouse and customs queues grow |
-| Remote / island areas | Longer than metro averages | Extra last-mile hops |
+| Container number | One physical container | You have the ISO number on the box or B/L annex |
+| Bill of lading (B/L) | Contractual shipment / one or more containers | You have docs but not every container number yet |
+| Booking reference | Commercial booking | Early lifecycle before full B/L issuance |
+| Parcel tracking number | Maersk parcel product | Small-package / parcel lane shipments |
 
-These are practical ranges based on public shipping information and shopper reports — not a guaranteed SLA. Always treat the estimate on your order page as the merchant baseline. Full country and service detail: [How long does Shein take to deliver?](/how-long-does-shein-take).
+Deep dive: [Maersk container tracking](/maersk-container-tracking) and [bill of lading tracking](/maersk-bill-of-lading-tracking).
 
-### What slows Shein shipping down
+### What slows ocean visibility
 
-- Warehouse backlog after major campaigns  
-- Flight capacity and origin hub congestion  
-- Customs inspections or busy border seasons  
-- Incorrect address or failed delivery attempts  
-- Preorder / customized items that ship later than in-stock fashion
+- Late gate-in or documentation holds at origin  
+- Vessel schedule changes and omitted port calls  
+- Transshipment congestion at hub ports  
+- Customs exams or holds at destination  
+- Inland rail/truck gaps between terminal scans  
 
-Once a parcel is in transit you usually **cannot** upgrade to a faster service. Choose express at checkout when speed matters.
+Once cargo is on the water you usually **cannot** change the ocean service. Work with your forwarder early if timing is critical.
 
-## Shein Tracking Statuses Explained
+## Common Maersk Tracking Statuses
 
-Status text comes from warehouses, airlines, brokers, and local couriers — so wording varies. Here is what shoppers see most often:
+Status text comes from terminals, vessels, and inland partners — so wording varies. Here is what shippers see most often:
 
-| Status you may see | What it usually means | What you should do |
-| --- | --- | --- |
-| Order placed / processing | Payment cleared; warehouse is packing | Wait for a tracking number |
-| Shipped / in transit | Parcel left the seller network | Expect quiet gaps between hubs |
-| Departed origin / airline departure | Moving on the international leg | Normal to go quiet for a few days |
-| Undergoing customs clearance | Border processing in your country | Usually wait; watch for release |
-| Customs released | Cleared for domestic delivery | Look for a local facility scan |
-| Arrived at local facility | Inside your country’s network | Updates should become more frequent |
-| Out for delivery | On a courier route today | Ensure someone can receive it |
-| Delivered | Carrier marked completion | Check porch, locker, neighbors if missing |
-| Exception / delayed / returned | Something interrupted the plan | Read the event; contact carrier + SHEIN |
+- **Gate in / received** — container accepted at terminal or depot  
+- **Loaded / vessel departed** — sailing has started  
+- **In transit / on vessel** — ocean leg underway (updates may be sparse)  
+- **Transshipment** — discharged and waiting reload at a hub  
+- **Arrived / discharged** — at destination port  
+- **Gate out / delivered** — left terminal toward consignee or depot  
 
-Full glossary with next steps: [Shein tracking statuses explained](/shein-tracking-statuses-explained).
+Quiet periods between these events are normal. If nothing moves for an unusually long time, see [Maersk tracking not updating](/maersk-tracking-not-updating).
 
-## Shein Customs Clearance — What It Means
+## Tips for Reliable Maersk Tracking
 
-When tracking says **package undergoing customs clearance**, import processing has started. Most fashion and small-goods parcels clear without action from you. Community reports often cite roughly **1–7 days** for routine clearance, longer during peak seasons or if an inspection is selected.
-
-After release you should see wording like *customs released*, *arrived at local facility*, or a named postal partner. Only respond to fee or document requests that come through **official** SHEIN, carrier, or government channels — ignore random SMS “customs payment” links.
-
-Deep dive: [Shein customs clearance guide](/shein-customs-clearance).
-
-## Why Shein Tracking Is Not Updating
-
-Official SHEIN help notes that **updates can take 3–5 days** between checkpoints because scans only happen at facilities. Quiet gaps are especially common on air and customs legs.
-
-### Common causes
-
-- Brand-new number waiting for the first outbound scan  
-- Long international segment with no intermediate facilities  
-- Customs hold with unchanged wording for several days  
-- Handoff to a last-mile partner before their first scan posts  
-- Typo, extra space, or using an order ID instead of tracking  
-
-### What to do
-
-1. Re-copy the number from My Orders → Track  
-2. Paste it on [Shein Tracking](/) and optionally select the carrier  
-3. Cross-check the last-mile courier once a local facility appears  
-4. Confirm you are not looking at a different package from a split shipment  
-5. Contact SHEIN support with screenshots if the delivery estimate has clearly expired  
-
-More fixes: [Shein tracking not updating](/shein-tracking-not-updating).
-
-## Shein Says Delivered But You Didn’t Receive It
-
-“Delivered” means the last-mile carrier recorded a completion event. That might be a handoff to a person, a porch drop, a locker, or building reception — or occasionally an early / mistaken scan.
-
-### Same-day checklist
-
-1. Check side doors, bins, garages, and parcel lockers  
-2. Ask household members, neighbors, and building staff  
-3. Confirm the shipping address on the SHEIN order  
-4. Open the carrier’s own tracking page for proof-of-delivery notes  
-5. Start a carrier trace, then message SHEIN support with screenshots if nothing turns up  
-
-Full playbook: [Shein delivered but not received](/shein-delivered-but-not-received).
-
-## Carriers Commonly Used for Shein Parcels
-
-Shein packages often travel on China-origin and cross-border networks before a local courier finishes delivery. Depending on your country you may see partners such as:
-
-- Cainiao and related economy / heavy lines  
-- Yun Express, Yanwen, 4PX, SF Express  
-- National posts and couriers (USPS, Royal Mail, and regional partners)  
-- Global express brands on faster lanes (DHL, FedEx, UPS where used)  
-
-You do not always need to pick a carrier on this site — auto detection covers most numbers — but choosing one can improve matches when formats overlap. Use **Choose Carrier** on the tracker above when you already know the network from My Orders.
-
-## Tips for Accurate Shein Order Tracking
-
-- Copy numbers carefully: letters and digits only, no spaces  
-- Track each package in a split order separately  
-- Expect 3–5 day quiet periods between some international checkpoints  
-- Enable carrier email/SMS alerts when the last-mile partner offers them  
-- Add clear delivery instructions for high-value hauls  
-- Save screenshots before opening a dispute or chargeback  
-- Use official SHEIN support for refunds, address changes, and cancellations — this site cannot modify merchant orders  
-
-## Who SheinTracking.com Is For
-
-[sheintracking.com](/) is an **independent** multi-carrier tracking tool for shoppers who want clearer shipment timelines. We are **not affiliated with SHEIN**. For payment issues, returns, size exchanges, or account problems, always use SHEIN’s official help channels inside your account.
+- Copy-paste references instead of typing by hand  
+- Track every container on multi-box bookings  
+- Compare ETA to vessel schedules, not only one portal’s summary  
+- Keep B/L and booking emails handy for support chats  
+- Use official Maersk channels for claims, holds, and documentation  
 
 ## Stay Updated
 
-Receive the latest tracking info anytime — paste your number above whenever you need a fresh scan history, and explore our guides below for every common Shein shipping question.
+Paste your container, B/L, or booking number in the tracker above whenever you need a fresh check. For step-by-step help, explore our [tracking guides](/category/blog).
+
+## FAQs About Maersk Tracking

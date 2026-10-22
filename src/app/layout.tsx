@@ -29,24 +29,24 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 5,
   userScalable: true,
-  themeColor: "#0A2A5C",
+  themeColor: "#48C0E4",
   viewportFit: "cover",
 };
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_ORIGIN),
   title: {
-    default: "Shein Tracking | Track Shein Orders & Packages Worldwide",
+    default: "Maersk Tracking | Track Containers, Shipments & Parcels",
     template: `%s | ${BRAND.name}`,
   },
   description: BRAND.description,
   keywords: [
-    "shein tracking",
-    "track shein order",
-    "shein package tracking",
-    "shein shipment tracking",
-    "track package",
-    "sheintracking",
+    "maersk tracking",
+    "maersk container tracking",
+    "track maersk shipment",
+    "maersk bill of lading tracking",
+    "maersk booking tracking",
+    "maersktracking",
   ],
   authors: [{ name: BRAND.name }],
   creator: BRAND.name,
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     canonical: SITE_ORIGIN,
   },
   openGraph: {
-    title: "Shein Tracking | Track Shein Orders & Packages Worldwide",
+    title: "Maersk Tracking | Track Containers, Shipments & Parcels",
     description: BRAND.description,
     url: SITE_ORIGIN,
     siteName: BRAND.name,
@@ -88,20 +88,20 @@ export const metadata: Metadata = {
         url: `${SITE_ORIGIN}${IMAGES.og}`,
         width: 1200,
         height: 630,
-        alt: `${BRAND.name} — track Shein packages worldwide`,
+        alt: `${BRAND.name} — track Maersk containers and shipments worldwide`,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Shein Tracking | Track Shein Orders & Packages Worldwide",
+    title: "Maersk Tracking | Track Containers, Shipments & Parcels",
     description: BRAND.description,
     creator: BRAND.twitter,
     images: [`${SITE_ORIGIN}${IMAGES.twitter}`],
   },
   applicationName: BRAND.name,
   category: "Logistics",
-  classification: "Package Tracking Service",
+  classification: "Shipment Tracking Service",
 };
 
 export default function RootLayout({

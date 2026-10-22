@@ -16,7 +16,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "sheintracking.com",
+        hostname: "maersktracking.com",
       },
     ],
     formats: ["image/webp"],
@@ -31,75 +31,35 @@ const nextConfig = {
       { source: "/privacy", destination: "/privacy-policy", permanent: true },
       { source: "/contact", destination: "/contact-us", permanent: true },
       { source: "/blog", destination: "/category/blog", permanent: true },
-      // Legacy JCEX / AliExpress article URLs → new Shein guides
+      // Legacy Shein article URLs → closest Maersk guides
       {
-        source: "/jcex-tracking-shows-no-updates-yet",
-        destination: "/shein-tracking-not-updating",
+        source: "/how-to-track-your-shein-order",
+        destination: "/how-to-track-maersk-shipment",
         permanent: true,
       },
       {
-        source: "/jcex-tracking-not-updating",
-        destination: "/shein-tracking-not-updating",
+        source: "/how-long-does-shein-take",
+        destination: "/how-to-track-maersk-shipment",
         permanent: true,
       },
       {
-        source: "/aliexpress-tracking-shows-no-updates-yet",
-        destination: "/shein-tracking-not-updating",
+        source: "/shein-tracking-statuses-explained",
+        destination: "/maersk-container-tracking",
         permanent: true,
       },
       {
-        source: "/aliexpress-tracking-not-updating",
-        destination: "/shein-tracking-not-updating",
+        source: "/shein-tracking-not-updating",
+        destination: "/maersk-tracking-not-updating",
         permanent: true,
       },
       {
-        source: "/how-to-track-your-jcex-order-in-2026",
-        destination: "/how-to-track-your-shein-order",
+        source: "/shein-delivered-but-not-received",
+        destination: "/maersk-tracking-not-updating",
         permanent: true,
       },
       {
-        source: "/how-to-track-your-jcex-shipment-guide",
-        destination: "/how-to-track-your-shein-order",
-        permanent: true,
-      },
-      {
-        source: "/how-to-track-your-aliexpress-order-in-2026",
-        destination: "/how-to-track-your-shein-order",
-        permanent: true,
-      },
-      {
-        source: "/how-to-track-your-aliexpress-order-with-aliexpresstracking-2025-guide",
-        destination: "/how-to-track-your-shein-order",
-        permanent: true,
-      },
-      {
-        source: "/how-long-does-jcex-take",
-        destination: "/how-long-does-shein-take",
-        permanent: true,
-      },
-      {
-        source: "/jcex-tracking-statuses-explained",
-        destination: "/shein-tracking-statuses-explained",
-        permanent: true,
-      },
-      {
-        source: "/jcex-delivered-but-not-received",
-        destination: "/shein-delivered-but-not-received",
-        permanent: true,
-      },
-      {
-        source: "/jcex-shipping-methods-guide",
-        destination: "/how-long-does-shein-take",
-        permanent: true,
-      },
-      {
-        source: "/aliexpress-shipping-methods-guide",
-        destination: "/how-long-does-shein-take",
-        permanent: true,
-      },
-      {
-        source: "/fake-jcex-tracking-scam",
-        destination: "/category/blog",
+        source: "/shein-customs-clearance",
+        destination: "/maersk-bill-of-lading-tracking",
         permanent: true,
       },
     ];
@@ -136,7 +96,7 @@ const nextConfig = {
               "style-src 'self' 'unsafe-inline'",
               "img-src 'self' data: https:",
               "font-src 'self' data:",
-              "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://pagead2.googlesyndication.com https://api.17track.net https://api.trackingmore.com https://sheintracking.com",
+              "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://pagead2.googlesyndication.com https://api.17track.net https://api.trackingmore.com https://maersktracking.com",
               "frame-src 'self' https://googleads.g.doubleclick.net https://tpc.googlesyndication.com",
               "frame-ancestors 'none'",
               "base-uri 'self'",

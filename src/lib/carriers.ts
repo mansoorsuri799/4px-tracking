@@ -8,19 +8,18 @@ export type Carrier = {
 
 export const CARRIERS = carriersData as Carrier[];
 
-/** Shown first in the picker — common for Shein / China-origin parcels */
+/** Shown first in the picker — ocean & common logistics partners */
 export const POPULAR_CARRIER_CODES = [
-  "cainiao",
-  "yun-express",
-  "yanwen",
-  "4px",
-  "usps",
+  "maersk",
+  "msc",
+  "cma-cgm",
+  "hapag-lloyd",
+  "cosco",
+  "one",
+  "zim",
   "dhl",
   "fedex",
   "ups",
-  "royal-mail",
-  "sf-express",
-  "jcex",
 ] as const;
 
 /** Verified TrackingMore CDN logos (built by scripts/fetch-carrier-logos.mjs) */
@@ -53,7 +52,7 @@ const LOGO_ALIAS: Record<string, string> = {
   "amazon-india": "amazon",
 };
 
-const AVATAR_COLORS = ["#0A2A5C", "#1246B0", "#1A56C5", "#FF6A00", "#E55F00", "#334155"];
+const AVATAR_COLORS = ["#48C0E4", "#2AAFD4", "#1A93B8", "#0F5F78", "#211F1F", "#6B6767"];
 
 function hashHue(s: string): number {
   let h = 0;

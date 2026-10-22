@@ -5,9 +5,9 @@ import { getMarkdown, stripLeadingH1 } from "@/lib/content";
 import { BRAND, ROUTES, SITE_ORIGIN } from "@/lib/siteConfig";
 
 const PAGE_URL = `${SITE_ORIGIN}${ROUTES.about}`;
-const PAGE_TITLE = "About Us | Shein Tracking";
+const PAGE_TITLE = "About Us | Maersk Tracking";
 const PAGE_DESCRIPTION =
-  "Discover sheintracking.com — real-time Shein order tracking, multi-carrier updates, and clear delivery timelines for international packages.";
+  "Discover maersktracking.com — real-time Maersk container and shipment tracking, multi-carrier updates, and clear milestone guides.";
 
 export const metadata: Metadata = {
   title: { absolute: PAGE_TITLE },
