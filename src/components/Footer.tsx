@@ -24,15 +24,15 @@ export default function Footer() {
                 className="rounded-lg ring-1 ring-white/15"
               />
               <span className="font-display text-lg font-bold text-white">
-                Maersk Tracking
+                SpeedPak Tracking
               </span>
             </Link>
             <p className="mt-3 text-sm leading-relaxed text-neutral-400">
-              Independent tracking for Maersk containers, shipments, and multi-carrier cargo.
-              Real-time milestones so you always know where your freight is.
+              Independent tracking for SpeedPAK packages, eBay cross-border orders, and
+              multi-carrier parcels. Real-time milestones so you always know where your package is.
             </p>
             <p className="mt-3 text-xs text-neutral-500">
-              Not affiliated with A.P. Moller - Maersk or its subsidiaries.
+              Not affiliated with Orange Connex, SpeedPAK, 4PX, or eBay.
             </p>
             <div className="mt-5 flex flex-wrap gap-2">
               {socialLinks.map((s) => (

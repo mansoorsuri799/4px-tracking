@@ -6,8 +6,8 @@ import { getMarkdown, stripLeadingH1 } from "@/lib/content";
 import { BRAND, ROUTES, SITE_ORIGIN } from "@/lib/siteConfig";
 
 const PAGE_URL = `${SITE_ORIGIN}${ROUTES.contact}`;
-const PAGE_TITLE = "Contact Us - Maersk Tracking";
-const PAGE_DESCRIPTION = "Get in touch with maersktracking.com";
+const PAGE_TITLE = "Contact Us - SpeedPak Tracking";
+const PAGE_DESCRIPTION = "Get in touch with speedpaktracking.com";
 
 export const metadata: Metadata = {
   title: { absolute: PAGE_TITLE },

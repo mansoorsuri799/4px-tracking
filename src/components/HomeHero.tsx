@@ -21,15 +21,15 @@ export default function HomeHero() {
         />
 
         <h1 className="font-display text-4xl font-extrabold tracking-tight text-white drop-shadow-sm sm:text-5xl md:text-6xl">
-          Maersk Tracking
+          SpeedPak Tracking
         </h1>
 
         <p className="mt-3 max-w-xl text-lg text-white/90 md:text-xl">
-          Track Maersk containers, shipments &amp; parcels worldwide
+          Track SpeedPAK packages, orders &amp; shipments worldwide
         </p>
 
         <p className="mt-2 text-sm font-medium tracking-wide text-white/70">
-          maersktracking.com
+          speedpaktracking.com
         </p>
 
         <div className="mt-8 w-full max-w-xl">

@@ -8,35 +8,35 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        /* Logo: bright cyan star square + near-black type */
+        /* Logo: SpeedPak orange #FD6B26 + near-black type */
         brand: {
-          DEFAULT: "#48C0E4",
-          dark: "#2AAFD4",
-          soft: "#E6F7FC",
+          DEFAULT: "#FD6B26",
+          dark: "#E55A18",
+          soft: "#FFF3EC",
         },
         navy: {
-          950: "#0A3F50",
-          900: "#0F5F78",
-          800: "#157A99",
-          700: "#1A93B8",
-          600: "#2AAFD4",
-          500: "#48C0E4",
-          200: "#A8E0F0",
-          100: "#D9F2FA",
-          50: "#F0FAFD",
+          950: "#7A2E0F",
+          900: "#9A3A14",
+          800: "#C44A1A",
+          700: "#E55A18",
+          600: "#FD6B26",
+          500: "#FD6B26",
+          200: "#FFC9A8",
+          100: "#FFE4D4",
+          50: "#FFF6F1",
         },
         teal: {
-          950: "#0A3F50",
-          900: "#0F5F78",
-          800: "#157A99",
-          700: "#1A93B8",
-          600: "#2AAFD4",
-          500: "#48C0E4",
-          100: "#D9F2FA",
+          950: "#7A2E0F",
+          900: "#9A3A14",
+          800: "#C44A1A",
+          700: "#E55A18",
+          600: "#FD6B26",
+          500: "#FD6B26",
+          100: "#FFE4D4",
         },
         coral: {
-          DEFAULT: "#48C0E4",
-          dark: "#2AAFD4",
+          DEFAULT: "#FD6B26",
+          dark: "#E55A18",
         },
         ink: {
           DEFAULT: "#211F1F",
@@ -44,7 +44,7 @@ module.exports = {
           mute: "#6B6767",
         },
         paper: {
-          DEFAULT: "#F4FBFD",
+          DEFAULT: "#FFF8F4",
           card: "#FFFFFF",
         },
       },
@@ -53,7 +53,7 @@ module.exports = {
         display: ["var(--font-display)", "system-ui", "sans-serif"],
       },
       boxShadow: {
-        soft: "0 10px 40px -12px rgba(72, 192, 228, 0.35)",
+        soft: "0 10px 40px -12px rgba(253, 107, 38, 0.35)",
         lift: "0 18px 50px -18px rgba(33, 31, 31, 0.28)",
       },
     },

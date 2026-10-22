@@ -1,26 +1,26 @@
 # Contact Us
 
-Have a question about [MaerskTracking.com](/), a guide on our blog, or a technical issue with the tracker? We read every message and reply as soon as we can.
+Have a question about [SpeedPakTracking.com](/), a guide on our blog, or a technical issue with the tracker? We read every message and reply as soon as we can.
 
 ## Email
 
-Send details to **[contact@maersktracking.com](mailto:contact@maersktracking.com)**.
+Send details to **[contact@speedpaktracking.com](mailto:contact@speedpaktracking.com)**.
 
 Include:
 
 - The page URL you are referring to  
-- The type of reference you tried (container, B/L, booking, or parcel) — **do not send confidential cargo values or personal ID documents**  
+- The type of reference you tried (SpeedPAK tracking number, last-mile number) — **do not send payment details, passwords, or personal ID documents**  
 - A short description of what went wrong or what you need  
 
 ## What We Can Help With
 
 - Site bugs, broken links, or display issues  
-- Clarifying guide content on Maersk tracking topics  
+- Clarifying guide content on SpeedPAK tracking topics  
 - Feedback on features you would like to see  
 
 ## What We Cannot Do
 
-We cannot modify Maersk bookings, clear customs holds, pay invoices, release containers, or act as Maersk customer service. For operational issues, contact Maersk or your freight forwarder through official channels.
+We cannot modify eBay orders, clear customs holds, contact sellers on your behalf, issue refunds, or act as Orange Connex / SpeedPAK customer service. For operational issues, use eBay Buyer Protection or the seller’s official support channels.
 
 ## Response Time
 

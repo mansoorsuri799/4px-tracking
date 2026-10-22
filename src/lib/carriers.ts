@@ -8,18 +8,18 @@ export type Carrier = {
 
 export const CARRIERS = carriersData as Carrier[];
 
-/** Shown first in the picker — ocean & common logistics partners */
+/** Shown first in the picker — SpeedPAK-related & popular parcel carriers */
 export const POPULAR_CARRIER_CODES = [
-  "maersk",
-  "msc",
-  "cma-cgm",
-  "hapag-lloyd",
-  "cosco",
-  "one",
-  "zim",
+  "speedpak",
+  "4px",
+  "usps",
+  "yun-express",
+  "cne-express",
+  "yanwen",
   "dhl",
   "fedex",
   "ups",
+  "uniuni",
 ] as const;
 
 /** Verified TrackingMore CDN logos (built by scripts/fetch-carrier-logos.mjs) */
@@ -29,6 +29,7 @@ const LOGO_MAP = logoMap as Record<string, string>;
 export const CARRIER_LOGO_CDN = "https://s.trackingmore.com/images/icons/express/";
 
 const LOGO_ALIAS: Record<string, string> = {
+  speedpak: "4px",
   "redur-reference": "redur",
   "flash-express-th": "flash-express",
   "expressone-bg": "expressone",
@@ -52,7 +53,7 @@ const LOGO_ALIAS: Record<string, string> = {
   "amazon-india": "amazon",
 };
 
-const AVATAR_COLORS = ["#48C0E4", "#2AAFD4", "#1A93B8", "#0F5F78", "#211F1F", "#6B6767"];
+const AVATAR_COLORS = ["#FD6B26", "#E55A18", "#C44A1A", "#9A3A14", "#211F1F", "#6B6767"];
 
 function hashHue(s: string): number {
   let h = 0;

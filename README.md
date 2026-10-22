@@ -1,6 +1,6 @@
-# Maersk Tracking
+# SpeedPak Tracking
 
-Independent Next.js site for **Maersk tracking** at [maersktracking.com](https://maersktracking.com) — container numbers, bills of lading, booking references, and parcels.
+Independent Next.js site for **SpeedPAK tracking** at [speedpaktracking.com](https://speedpaktracking.com) — EE/ES tracking numbers, eBay cross-border packages, and partner-network scans.
 
 ## Stack
 
@@ -31,4 +31,4 @@ npm start
 
 ## Note
 
-This site is **not affiliated** with A.P. Moller - Maersk.
+This site is **not affiliated** with Orange Connex, SpeedPAK, 4PX, or eBay.

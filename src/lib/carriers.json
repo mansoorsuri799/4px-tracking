@@ -324,6 +324,10 @@
     "code": "4px"
   },
   {
+    "name": "SpeedPAK",
+    "code": "speedpak"
+  },
+  {
     "name": "DHL Express",
     "code": "dhl"
   },

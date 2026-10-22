@@ -2,11 +2,11 @@
 
 **Last updated:** October 22, 2026
 
-This Privacy Policy explains how **MaerskTracking.com** (“we”, “us”, or “our”) handles information when you use https://maersktracking.com and related pages.
+This Privacy Policy explains how **SpeedPakTracking.com** (“we”, “us”, or “our”) handles information when you use https://speedpaktracking.com and related pages.
 
 ## Who We Are
 
-MaerskTracking.com is an independent shipment tracking website. We are not affiliated with A.P. Moller - Maersk. Contact: [contact@maersktracking.com](mailto:contact@maersktracking.com).
+SpeedPakTracking.com is an independent package tracking website. We are not affiliated with Orange Connex, SpeedPAK, 4PX, or eBay. Contact: [contact@speedpaktracking.com](mailto:contact@speedpaktracking.com).
 
 ## Information We Collect
 
@@ -37,7 +37,7 @@ We do **not** sell personal information. Tracking numbers are used to fetch ship
 
 ## Third-Party Services
 
-Tracking lookups may call third-party logistics data providers. Those providers process the reference you submit solely to return status data. Official Maersk websites and portals operate under Maersk’s own privacy terms when you leave our site.
+Tracking lookups may call third-party logistics data providers. Those providers process the reference you submit solely to return status data. Official Orange Connex, eBay, and carrier websites operate under their own privacy terms when you leave our site.
 
 ## Data Retention
 
@@ -50,12 +50,12 @@ We use HTTPS and industry-standard hosting practices. No method of transmission 
 ## Your Choices
 
 - Adjust browser cookie settings  
-- Request correction or deletion of personal data you sent us by emailing [contact@maersktracking.com](mailto:contact@maersktracking.com)  
+- Request correction or deletion of personal data you sent us by emailing [contact@speedpaktracking.com](mailto:contact@speedpaktracking.com)  
 - Stop using the site at any time  
 
 ## Children’s Privacy
 
-This site is intended for business and adult users involved in shipping. We do not knowingly collect personal information from children.
+This site is intended for adult shoppers and sellers involved in package tracking. We do not knowingly collect personal information from children.
 
 ## International Visitors
 
@@ -67,4 +67,4 @@ We may update this policy to reflect product or legal changes. The “Last updat
 
 ## Contact
 
-Privacy questions: [contact@maersktracking.com](mailto:contact@maersktracking.com).
+Privacy questions: [contact@speedpaktracking.com](mailto:contact@speedpaktracking.com).

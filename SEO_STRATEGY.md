@@ -1,21 +1,21 @@
-# SEO Strategy — Maersk Tracking (maersktracking.com)
+# SEO Strategy — SpeedPak Tracking (speedpaktracking.com)
 
 ## Primary keyword
 
-- **maersk tracking**
+- **speedpak tracking**
 
 ## Supporting intents (live SERP, Oct 2026)
 
 | Intent | Target URL |
 | --- | --- |
-| How to track Maersk shipment | `/how-to-track-maersk-shipment` |
-| Maersk container tracking | `/maersk-container-tracking` |
-| Bill of lading / booking tracking | `/maersk-bill-of-lading-tracking` |
-| Tracking not updating / unable to track | `/maersk-tracking-not-updating` |
+| How to track SpeedPAK package | `/how-to-track-speedpak-package` |
+| SpeedPAK tracking number (EE / ES) | `/speedpak-tracking-number` |
+| Tracking not updating | `/speedpak-tracking-not-updating` |
+| SpeedPAK / 4PX connection | `/speedpak-4px-tracking` |
 
 ## Technical
 
-- Canonical host: `https://maersktracking.com`
+- Canonical host: `https://speedpaktracking.com`
 - Sitemap index: `/sitemap-index.xml` → `/index.xml` + `/image-sitemap.xml`
 - Robots with Content-Signal + AI training bot blocks
 - Article + FAQ + Organization + WebSite JSON-LD
@@ -25,5 +25,5 @@
 
 - Original guides (not spun competitor copy)
 - Clear independent disclaimer
-- Container vs B/L vs booking explained with tables
+- EE/ES number formats + Standard vs Economy explained
 - Internal links between the four SERP-backed posts only

@@ -3,19 +3,19 @@
 @tailwind utilities;
 
 :root {
-  /* From maersk-tracking.webp — cyan star square + logo black */
-  --brand: #48c0e4;
-  --navy-start: #0f5f78;
-  --navy-end: #48c0e4;
-  --coral: #48c0e4;
+  /* From speedpak-tracking.webp — orange brand mark + logo black */
+  --brand: #fd6b26;
+  --navy-start: #9a3a14;
+  --navy-end: #fd6b26;
+  --coral: #fd6b26;
   --ink: #211f1f;
-  --paper: #f4fbfd;
+  --paper: #fff8f4;
   --foreground-rgb: 33, 31, 31;
-  --background-start-rgb: 244, 251, 253;
+  --background-start-rgb: 255, 248, 244;
   --background-end-rgb: 255, 255, 255;
-  --feature-border: #c5e8f4;
-  --feature-title: #0f5f78;
-  --feature-icon: #48c0e4;
+  --feature-border: #ffc9a8;
+  --feature-title: #9a3a14;
+  --feature-icon: #fd6b26;
 }
 
 html {
@@ -43,15 +43,15 @@ footer {
 
 .hero-gradient {
   background:
-    radial-gradient(ellipse 70% 55% at 18% 18%, rgba(72, 192, 228, 0.22), transparent 55%),
-    radial-gradient(ellipse 60% 45% at 88% 12%, rgba(72, 192, 228, 0.12), transparent 50%),
+    radial-gradient(ellipse 70% 55% at 18% 18%, rgba(253, 107, 38, 0.22), transparent 55%),
+    radial-gradient(ellipse 60% 45% at 88% 12%, rgba(253, 107, 38, 0.12), transparent 50%),
     linear-gradient(160deg, #211f1f 0%, #1a1818 42%, #2a2828 78%, #333030 100%);
 }
 
-/* Page banners — logo charcoal with cyan glow */
+/* Page banners — logo charcoal with orange glow */
 .page-banner {
   background:
-    radial-gradient(ellipse 65% 50% at 85% 20%, rgba(72, 192, 228, 0.18), transparent 55%),
+    radial-gradient(ellipse 65% 50% at 85% 20%, rgba(253, 107, 38, 0.18), transparent 55%),
     linear-gradient(145deg, #211f1f 0%, #1a1818 45%, #2c2a2a 100%);
 }
 
@@ -108,7 +108,7 @@ footer {
 .prose-ul > .prose-li::before {
   content: "";
   @apply absolute left-0 top-[0.55em] h-2 w-2 rounded-full bg-brand;
-  box-shadow: 0 0 0 3px rgba(72, 192, 228, 0.22);
+  box-shadow: 0 0 0 3px rgba(253, 107, 38, 0.22);
 }
 
 .prose-ol > .prose-li {
@@ -122,11 +122,11 @@ footer {
 
 .prose-a {
   @apply font-semibold text-navy-700 underline underline-offset-[3px] transition-colors hover:text-brand-dark;
-  text-decoration-color: rgba(72, 192, 228, 0.45);
+  text-decoration-color: rgba(253, 107, 38, 0.45);
 }
 
 .prose-a:hover {
-  text-decoration-color: rgba(42, 175, 212, 0.7);
+  text-decoration-color: rgba(229, 90, 24, 0.7);
 }
 
 .prose-strong {

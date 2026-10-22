@@ -1,103 +1,103 @@
-Global ocean freight moves most of the world’s trade — and waiting on a Maersk container without clear milestones is one of the most common frustrations for shippers and consignees. Whether your cargo just left the origin terminal or is waiting for vessel departure this week, knowing how to use **Maersk tracking** turns uncertainty into a simple status check. [MaerskTracking.com](/) is built for that job: paste your container number, bill of lading, or booking reference, read the live timeline, and understand what each milestone means.
+Cross-border shopping from eBay and other China-export sellers often ships with **SpeedPAK** — and waiting on a package without clear milestones is one of the most common buyer frustrations. Whether your order just left a Shenzhen warehouse or is waiting for USPS last-mile delivery, knowing how to use **SpeedPAK tracking** turns uncertainty into a simple status check. [SpeedPakTracking.com](/) is built for that job: paste your EE or ES tracking number, read the live timeline, and understand what each milestone means.
 
 ## Why Choose Us?
 
 ## Real-Time Updates
 
-## What Is Maersk Tracking?
+## What Is SpeedPAK Tracking?
 
-**Maersk tracking** is the process of following ocean, air, LCL, or parcel cargo handled in Maersk’s network using a unique reference. After a booking is confirmed, terminals, vessels, and inland partners publish events as the shipment moves. From there a typical ocean journey includes:
+**SpeedPAK tracking** is the process of following an eBay SpeedPAK (Orange Connex) parcel from China export through international transit, customs, and local delivery using a unique tracking number. After the seller hands the package over, warehouses and linehaul partners publish events as the shipment moves. From there a typical journey includes:
 
-1. **Empty pickup / gate-in** — the container enters the carrier or terminal system  
-2. **Vessel load & departure** — cargo sails on the planned voyage  
-3. **Transshipment (if any)** — hub port discharge and reload  
-4. **Arrival & discharge** — destination port events  
-5. **Gate-out / inland delivery** — truck, rail, or depot handoff to the consignee  
+1. **Order received / warehouse pickup** — the parcel enters the SpeedPAK network  
+2. **Export customs & departure** — cleared for international transport  
+3. **In transit / destination arrival** — linehaul and import processing  
+4. **Import customs clearance** — destination-country checks  
+5. **Last-mile handoff & delivery** — USPS or a regional courier to your door  
 
-That multi-leg journey is why one booking can show different wording in a forwarder portal and on a universal tracker. Booking tools emphasize commercial milestones. Operational networks publish terminal and vessel events. [Maersk Tracking](/) focuses on the reference itself so you can see progress in one place.
+That multi-leg journey is why one order can show different wording in eBay, Orange Connex, and a universal tracker. Marketplace tools emphasize purchase status. Operational networks publish scan events. [SpeedPak Tracking](/) focuses on the tracking number itself so you can see progress in one place.
 
-## How Maersk Shipment Tracking Works
+## How SpeedPAK Package Tracking Works
 
 ### When tracking becomes available
 
-A container or B/L often starts returning events **after** the first terminal or carrier scan. Until then, your booking confirmation may only show planned dates. That gap of hours to a few days is normal — especially before gate-in or during documentation checks.
+A SpeedPAK number often starts returning events **after** the first warehouse or export scan. Until then, your eBay order page may only show “shipped” with a planned window. That gap of hours to a few days is normal — especially before the first physical scan.
 
-### Multiple containers on one booking
+### Standard vs Economy prefixes
 
-A single bill of lading can cover **several containers**. Each box has its own ISO number and can move on a slightly different inland schedule. Always track every container listed on the B/L before assuming something is missing.
+Many SpeedPAK numbers begin with **EE** (often Standard-style full tracking) or **ES** (Economy-style). Sellers may also upload **EX** or **EM** prefixes depending on the service. Always copy the full string from the order — truncating characters breaks lookups.
 
-### Why Maersk.com and this site can differ
+### Why Orange Connex and this site can differ
 
-Official Maersk tools show carrier-native events for the selected booking type. We surface multi-carrier and partner scan data for the same reference when available. Both can be useful: one emphasizes Maersk milestones; the other may add denser partner history around the same journey.
+Official Orange Connex tools show carrier-native events for SpeedPAK. We surface multi-carrier and partner scan data for the same reference when available. Both can be useful: one emphasizes SpeedPAK milestones; the other may add denser partner history around the same journey.
 
-## How to Find Your Maersk Tracking Number
+## How to Find Your SpeedPAK Tracking Number
 
-1. Open your booking confirmation, bill of lading, or forwarder portal.  
-2. Locate the **container number**, **bill of lading**, or **booking reference**.  
-3. For parcels, copy the **parcel tracking number** from the label or notification.  
-4. Note the booking type if shown (Ocean, Air, LCL, or Parcel).  
-5. Paste the reference into the tracker at the top of this page.
+1. Open your eBay purchase history or order details.  
+2. Locate the **tracking number** under shipping information.  
+3. Confirm it looks like a SpeedPAK code (often EE… or ES…).  
+4. Copy the full number — do not use the order ID or payment reference.  
+5. Paste it into the tracker at the top of this page.
 
-If nothing returns yet, the shipment may still be with the shipper or awaiting the first gate event. Double-check for transposed characters — container check digits and B/L formats are easy to mistype. Never confuse an invoice number with a tracking reference; only the IDs listed above work in carrier systems.
+If nothing returns yet, the seller may not have handed the parcel over, or the first scan has not posted. Double-check for transposed characters. Never confuse an invoice number with a tracking reference; only the IDs listed on the shipping label work in carrier systems.
 
-For a deeper walkthrough, read our full guide: [How to track a Maersk shipment](/how-to-track-maersk-shipment).
+For a deeper walkthrough, read our full guide: [How to track a SpeedPAK package](/how-to-track-speedpak-package).
 
-## How to Track Your Maersk Shipment Step by Step?
+## How to Track Your SpeedPAK Shipment Step by Step?
 
-Use the search box at the top of this page for the fastest multi-carrier view. Most users only need the container number or B/L; selecting a carrier can help when several networks share similar code formats.
+Use the search box at the top of this page for the fastest multi-carrier view. Most buyers only need the SpeedPAK tracking number; selecting a carrier can help when several networks share similar code formats.
 
 You can also:
 
-- Track on **[maersk.com/tracking](https://www.maersk.com/tracking/)** for official Ocean, Air, LCL, or Parcel flows  
-- Paste the same reference on [maersktracking.com](/) for a denser scan history when partner events are available  
-- Open your **forwarder or customs broker** portal once destination milestones appear  
+- Track on **[Orange Connex](https://orangeconnex.cn/tracking)** for official SpeedPAK shipment tracking  
+- Paste the same reference on [speedpaktracking.com](/) for a denser scan history when partner events are available  
+- Follow **USPS or local courier** tracking once a last-mile number appears  
 
-## Maersk Tracking Reference Types
+## SpeedPAK Tracking Reference Types
 
 Different IDs answer different questions. Choosing the right one avoids false “not found” results.
 
 | Reference type | What it identifies | Best when |
 | --- | --- | --- |
-| Container number | One physical container | You have the ISO number on the box or B/L annex |
-| Bill of lading (B/L) | Contractual shipment / one or more containers | You have docs but not every container number yet |
-| Booking reference | Commercial booking | Early lifecycle before full B/L issuance |
-| Parcel tracking number | Maersk parcel product | Small-package / parcel lane shipments |
+| SpeedPAK tracking number (EE / ES…) | The cross-border parcel journey | You have the number from eBay shipping details |
+| eBay order number | The purchase only | Finding the linked tracking number — not for carrier lookup |
+| Last-mile / USPS number | Domestic delivery leg | After import, when a local barcode is assigned |
+| 4PX-related number | Partner network events | Your label or timeline mentions 4PX Express |
 
-Deep dive: [Maersk container tracking](/maersk-container-tracking) and [bill of lading tracking](/maersk-bill-of-lading-tracking).
+Deep dive: [SpeedPAK tracking number formats](/speedpak-tracking-number) and [SpeedPAK & 4PX tracking](/speedpak-4px-tracking).
 
-### What slows ocean visibility
+### What slows cross-border visibility
 
-- Late gate-in or documentation holds at origin  
-- Vessel schedule changes and omitted port calls  
-- Transshipment congestion at hub ports  
-- Customs exams or holds at destination  
-- Inland rail/truck gaps between terminal scans  
+- Late seller handoff or warehouse backlog at origin  
+- Export declaration holds  
+- Long international transit with few scans  
+- Import customs exams or peak-season congestion  
+- Gaps while the parcel waits for last-mile sorting  
 
-Once cargo is on the water you usually **cannot** change the ocean service. Work with your forwarder early if timing is critical.
+Once cargo is in international transit you usually **cannot** speed the linehaul. Message the seller early if the first scan never appears after several days.
 
-## Common Maersk Tracking Statuses
+## Common SpeedPAK Tracking Statuses
 
-Status text comes from terminals, vessels, and inland partners — so wording varies. Here is what shippers see most often:
+Status text comes from warehouses, linehaul partners, and last-mile carriers — so wording varies. Here is what buyers see most often:
 
-- **Gate in / received** — container accepted at terminal or depot  
-- **Loaded / vessel departed** — sailing has started  
-- **In transit / on vessel** — ocean leg underway (updates may be sparse)  
-- **Transshipment** — discharged and waiting reload at a hub  
-- **Arrived / discharged** — at destination port  
-- **Gate out / delivered** — left terminal toward consignee or depot  
+- **Order received / pickup completed** — parcel accepted into the network  
+- **Export customs completed / departed** — left origin country  
+- **In transit / destination port arrival** — international leg underway (updates may be sparse)  
+- **Import customs clearance** — entering the destination country  
+- **Handover to local carrier / out for delivery** — last-mile stage  
+- **Delivered** — signed or left per local delivery rules  
 
-Quiet periods between these events are normal. If nothing moves for an unusually long time, see [Maersk tracking not updating](/maersk-tracking-not-updating).
+Quiet periods between these events are normal. If nothing moves for an unusually long time, see [SpeedPAK tracking not updating](/speedpak-tracking-not-updating).
 
-## Tips for Reliable Maersk Tracking
+## Tips for Reliable SpeedPAK Tracking
 
-- Copy-paste references instead of typing by hand  
-- Track every container on multi-box bookings  
-- Compare ETA to vessel schedules, not only one portal’s summary  
-- Keep B/L and booking emails handy for support chats  
-- Use official Maersk channels for claims, holds, and documentation  
+- Copy-paste the full tracking number instead of typing by hand  
+- Check eBay order details if Orange Connex and this site disagree  
+- Compare delivery estimates to service type (Standard vs Economy)  
+- Keep seller messages handy for Buyer Protection timelines  
+- Use official eBay / Orange Connex channels for claims and disputes  
 
 ## Stay Updated
 
-Paste your container, B/L, or booking number in the tracker above whenever you need a fresh check. For step-by-step help, explore our [tracking guides](/category/blog).
+Paste your SpeedPAK tracking number in the tracker above whenever you need a fresh check. For step-by-step help, explore our [tracking guides](/category/blog).
 
-## FAQs About Maersk Tracking
+## FAQs About SpeedPak Tracking

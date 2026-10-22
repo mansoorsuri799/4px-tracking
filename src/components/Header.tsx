@@ -78,7 +78,7 @@ export default function Header() {
                 : "text-ink group-hover:text-navy-800"
             }`}
           >
-            <span className={transparent ? "text-white" : "text-ink"}>Maersk</span>
+            <span className={transparent ? "text-white" : "text-ink"}>SpeedPak</span>
             <span className={`ml-1.5 font-semibold ${transparent ? "text-white/90" : "text-ink"}`}>
               Tracking
             </span>

@@ -1,20 +1,20 @@
 {
-  "name": "Maersk Tracking",
-  "short_name": "Maersk Tracking",
-  "description": "Track Maersk containers, shipments, and parcels worldwide with live milestone updates.",
+  "name": "SpeedPak Tracking",
+  "short_name": "SpeedPak Tracking",
+  "description": "Track SpeedPAK packages, eBay cross-border orders, and multi-carrier parcels with live milestone updates.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#F4FBFD",
-  "theme_color": "#48C0E4",
+  "background_color": "#FFF8F4",
+  "theme_color": "#FD6B26",
   "icons": [
     {
-      "src": "/maersk-tracking.webp",
+      "src": "/speedpak-tracking.webp",
       "sizes": "192x192",
       "type": "image/webp",
       "purpose": "any maskable"
     },
     {
-      "src": "/maersk-tracking.webp",
+      "src": "/speedpak-tracking.webp",
       "sizes": "512x512",
       "type": "image/webp",
       "purpose": "any"

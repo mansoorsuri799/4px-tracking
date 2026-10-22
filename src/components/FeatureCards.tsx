@@ -79,50 +79,50 @@ export const FEATURE_ICONS = {
 export const HOME_FEATURES: CardItem[] = [
   {
     title: "Real-Time Updates",
-    description: "Get live milestone updates and know where your Maersk container or shipment stands.",
+    description: "Get live milestone updates and know where your SpeedPAK package stands.",
     icon: FEATURE_ICONS.cart,
   },
   {
     title: "Multi-Carrier Support",
-    description: "Track Maersk cargo and partner-carrier events from major networks in one place.",
+    description: "Track SpeedPAK, 4PX partner events, and last-mile carriers in one place.",
     icon: FEATURE_ICONS.van,
   },
   {
     title: "Clear Milestones",
-    description: "Follow gate-in, vessel departure, arrival, discharge, and gate-out events.",
+    description: "Follow warehouse pickup, export, customs, and out-for-delivery events.",
     icon: FEATURE_ICONS.chat,
   },
   {
     title: "Easy-to-Use Interface",
-    description: "A simple, clean design makes container and B/L lookups fast for every team.",
+    description: "A simple, clean design makes EE/ES tracking lookups fast for every buyer.",
     icon: FEATURE_ICONS.phone,
   },
   {
     title: "Full Status Timeline",
-    description: "See the journey from origin terminal through ocean transit and inland delivery.",
+    description: "See the journey from China export through import and doorstep delivery.",
     icon: FEATURE_ICONS.pin,
   },
   {
-    title: "Maersk Focused",
-    description: "Built for container numbers, bills of lading, bookings, and parcel references.",
+    title: "SpeedPAK Focused",
+    description: "Built for SpeedPAK numbers, eBay shipping updates, and partner references.",
     icon: FEATURE_ICONS.bag,
   },
 ];
 
 export const HOME_STEPS: CardItem[] = [
   {
-    title: "Enter Your Reference",
-    description: "Paste a container, B/L, booking, or parcel number in the search box.",
+    title: "Enter Your Number",
+    description: "Paste your SpeedPAK EE/ES tracking number in the search box.",
     icon: FEATURE_ICONS.keyboard,
   },
   {
     title: 'Click “Track Package”',
-    description: "Get instant updates on your Maersk shipment.",
+    description: "Get instant updates on your SpeedPAK shipment.",
     icon: FEATURE_ICONS.truck,
   },
   {
     title: "Stay Updated",
-    description: "Check the latest milestones anytime as cargo moves.",
+    description: "Check the latest milestones anytime as your package moves.",
     icon: FEATURE_ICONS.update,
   },
 ];
@@ -130,16 +130,16 @@ export const HOME_STEPS: CardItem[] = [
 function IconCard({ item }: { item: CardItem }) {
   return (
     <motion.article
-      className="group relative rounded-2xl border border-[#C5E8F4] bg-white px-5 pb-6 pt-10"
+      className="group relative rounded-2xl border border-[#FFC9A8] bg-white px-5 pb-6 pt-10"
       whileHover={{
         y: -6,
-        borderColor: "#48C0E4",
-        boxShadow: "0 18px 40px -20px rgba(72, 192, 228, 0.45)",
+        borderColor: "#FD6B26",
+        boxShadow: "0 18px 40px -20px rgba(253, 107, 38, 0.45)",
       }}
       transition={{ type: "spring", stiffness: 320, damping: 24 }}
     >
       <motion.div
-        className="absolute -top-6 left-5 flex h-12 w-12 items-center justify-center rounded-full border border-[#C5E8F4] bg-white text-[#48C0E4] shadow-sm"
+        className="absolute -top-6 left-5 flex h-12 w-12 items-center justify-center rounded-full border border-[#FFC9A8] bg-white text-[#FD6B26] shadow-sm"
         aria-hidden
         variants={{
           rest: { scale: 1, rotate: 0 },
@@ -151,7 +151,7 @@ function IconCard({ item }: { item: CardItem }) {
       >
         {item.icon}
       </motion.div>
-      <h3 className="font-display text-lg font-bold tracking-tight text-[#0F5F78] md:text-[1.15rem]">
+      <h3 className="font-display text-lg font-bold tracking-tight text-[#9A3A14] md:text-[1.15rem]">
         {item.title}
       </h3>
       <p className="mt-2 text-[0.95rem] leading-relaxed text-[#6B6767]">{item.description}</p>

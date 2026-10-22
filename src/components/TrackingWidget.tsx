@@ -216,13 +216,13 @@ export default function TrackingWidget() {
                       type="search"
                       value={search}
                       onChange={(e) => setSearch(e.target.value)}
-                      placeholder="Search carriers (Maersk, DHL, MSC…)"
+                      placeholder="Search carriers (4PX, DHL, USPS…)"
                       className="w-full rounded-xl border border-slate-200 px-3 py-2.5 text-sm text-ink focus:border-navy-500 focus:outline-none focus:ring-2 focus:ring-navy-500/20"
                       autoFocus
                     />
                     <p className="mt-2 text-xs text-ink-mute">
                       {filtered.length} carrier{filtered.length === 1 ? "" : "s"}
-                      {!deferredSearch.trim() ? " · Maersk & major ocean carriers listed first" : ""}
+                      {!deferredSearch.trim() ? " · 4PX & popular parcel carriers listed first" : ""}
                     </p>
                   </div>
 
@@ -281,7 +281,7 @@ export default function TrackingWidget() {
               setTrackingNumber(e.target.value);
               if (error) setError(null);
             }}
-            placeholder="Container, B/L, or booking number"
+            placeholder="SpeedPAK tracking number (EE / ES…)"
             required
             autoComplete="off"
             className="min-w-0 flex-1 border-0 bg-transparent px-5 py-4 text-base text-black placeholder:text-neutral-400 focus:outline-none focus:ring-0"

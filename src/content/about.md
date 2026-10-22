@@ -1,26 +1,26 @@
 # About Us
 
-Welcome to [maersktracking.com](/), your independent destination for real-time **Maersk tracking** and multi-carrier shipment updates. Global logistics should feel transparent — not opaque. Our mission is simple: make tracking Maersk containers, bills of lading, bookings, and parcels easy, accurate, and hassle-free.
+Welcome to [speedpaktracking.com](/), your independent destination for real-time **SpeedPAK tracking** and multi-carrier package updates. Cross-border shopping should feel transparent — not opaque. Our mission is simple: make tracking SpeedPAK parcels, eBay shipping numbers, and partner-network scans easy, accurate, and hassle-free.
 
 ## Who We Are
 
-Maersk Tracking is an independent multi-carrier tracking site. We are **not** A.P. Moller - Maersk, and we are not affiliated with Maersk or its subsidiaries. We aggregate publicly available shipment scan data so shippers and consignees can follow one reference from terminal gate-in through ocean transit and inland delivery.
+SpeedPak Tracking is an independent multi-carrier tracking site. We are **not** Orange Connex, SpeedPAK, 4PX, or eBay, and we are not affiliated with those companies. We aggregate publicly available shipment scan data so buyers can follow one tracking number from warehouse pickup through international transit and last-mile delivery.
 
 ## What We Offer
 
 - Fast tracking lookup on the homepage  
-- Support for container numbers, bills of lading, booking references, and parcel IDs  
-- Clear guides on container tracking, B/L tracking, and stalled updates  
-- Practical FAQs written for real logistics problems  
+- Support for SpeedPAK EE / ES-style numbers and related carrier codes  
+- Clear guides on tracking numbers, stalled updates, and 4PX connections  
+- Practical FAQs written for real buyer problems  
 
-## Why Teams Use MaerskTracking.com
+## Why Buyers Use SpeedPakTracking.com
 
-Official Maersk tools show carrier-native milestones; partner networks add operational scans. We bridge both by focusing on the tracking reference itself — with plain-language guides when the timeline looks confusing.
+Official Orange Connex tools show SpeedPAK-native milestones; partner networks add operational scans. We bridge both by focusing on the tracking reference itself — with plain-language guides when the timeline looks confusing.
 
 ## Our Commitment
 
-We aim for honest timelines, original editorial content, and transparent disclaimers. Tracking data depends on carrier and terminal scans; quiet gaps happen on ocean legs. When something looks wrong, our guides explain the next step without hype.
+We aim for honest timelines, original editorial content, and transparent disclaimers. Tracking data depends on carrier and warehouse scans; quiet gaps happen on international legs. When something looks wrong, our guides explain the next step without hype.
 
 ## Get in Touch
 
-Questions about the site? Visit [Contact Us](/contact-us) or email [contact@maersktracking.com](mailto:contact@maersktracking.com).
+Questions about the site? Visit [Contact Us](/contact-us) or email [contact@speedpaktracking.com](mailto:contact@speedpaktracking.com).

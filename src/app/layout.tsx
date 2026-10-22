@@ -29,24 +29,24 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 5,
   userScalable: true,
-  themeColor: "#48C0E4",
+  themeColor: "#FD6B26",
   viewportFit: "cover",
 };
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_ORIGIN),
   title: {
-    default: "Maersk Tracking | Track Containers, Shipments & Parcels",
+    default: "SpeedPak Tracking | Track SpeedPAK Packages & Orders",
     template: `%s | ${BRAND.name}`,
   },
   description: BRAND.description,
   keywords: [
-    "maersk tracking",
-    "maersk container tracking",
-    "track maersk shipment",
-    "maersk bill of lading tracking",
-    "maersk booking tracking",
-    "maersktracking",
+    "speedpak tracking",
+    "speedpak tracking number",
+    "track speedpak package",
+    "speedpak tracking not updating",
+    "4px speedpak tracking",
+    "ebay speedpak tracking",
   ],
   authors: [{ name: BRAND.name }],
   creator: BRAND.name,
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     canonical: SITE_ORIGIN,
   },
   openGraph: {
-    title: "Maersk Tracking | Track Containers, Shipments & Parcels",
+    title: "SpeedPak Tracking | Track SpeedPAK Packages & Orders",
     description: BRAND.description,
     url: SITE_ORIGIN,
     siteName: BRAND.name,
@@ -88,20 +88,20 @@ export const metadata: Metadata = {
         url: `${SITE_ORIGIN}${IMAGES.og}`,
         width: 1200,
         height: 630,
-        alt: `${BRAND.name} — track Maersk containers and shipments worldwide`,
+        alt: `${BRAND.name} — track SpeedPAK packages and cross-border orders`,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Maersk Tracking | Track Containers, Shipments & Parcels",
+    title: "SpeedPak Tracking | Track SpeedPAK Packages & Orders",
     description: BRAND.description,
     creator: BRAND.twitter,
     images: [`${SITE_ORIGIN}${IMAGES.twitter}`],
   },
   applicationName: BRAND.name,
   category: "Logistics",
-  classification: "Shipment Tracking Service",
+  classification: "Package Tracking Service",
 };
 
 export default function RootLayout({

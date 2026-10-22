@@ -5,9 +5,9 @@ import { PageBannerPattern } from "@/components/BoxPattern";
 import { ARTICLES, BRAND, ROUTES, SITE_ORIGIN } from "@/lib/siteConfig";
 
 const PAGE_URL = `${SITE_ORIGIN}${ROUTES.blog}`;
-const PAGE_TITLE = "Blog - Maersk Tracking";
+const PAGE_TITLE = "Blog - SpeedPak Tracking";
 const PAGE_DESCRIPTION =
-  "Maersk tracking guides: container numbers, bills of lading, booking references, and fixes when tracking is not updating.";
+  "SpeedPAK tracking guides: tracking numbers, how to track packages, stalled updates, and SpeedPAK–4PX connections.";
 
 export const metadata: Metadata = {
   title: { absolute: PAGE_TITLE },
