@@ -7,7 +7,7 @@ export const BRAND = {
   keyword: "4px tracking",
   domain: "4pxtracking.net",
   email: "contact@4pxtracking.net",
-  twitter: "@4pxtracking",
+  twitter: "@4PX_WrldWideExp",
   tagline: "Track 4PX Packages, Orders & Shipments",
   description:
     "Track 4PX Express packages and cross-border shipments in one place. Enter your 4PX tracking number for live status, customs milestones, and last-mile updates.",
@@ -125,8 +125,8 @@ export const HOME_FAQS = [
 ] as const;
 
 export const SOCIAL = {
-  facebook: "https://www.facebook.com/",
-  twitter: "https://x.com/",
-  instagram: "https://www.instagram.com/",
-  youtube: "https://www.youtube.com/",
+  facebook: "https://www.facebook.com/4pxgl/",
+  twitter: "https://x.com/4PX_WrldWideExp",
+  instagram: "https://www.instagram.com/popular/4px-tracking/",
+  youtube: "https://www.youtube.com/@4px55",
 } as const;
